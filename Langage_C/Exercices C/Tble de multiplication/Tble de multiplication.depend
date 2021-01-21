@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1611068260 source:c:\users\youcode\desktop\exercices c\tble de multiplication\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+

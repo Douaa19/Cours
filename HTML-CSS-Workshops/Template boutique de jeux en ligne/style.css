@@ -1,0 +1,8 @@
+.paragraphe {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #eeeae4;
+  width: 800px;
+  padding-top: 20px;
+  margin: 50px auto;
+}

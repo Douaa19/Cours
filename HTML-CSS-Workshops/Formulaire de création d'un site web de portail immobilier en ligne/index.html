@@ -10,33 +10,37 @@
 <body>
 
     <div class="formulaire">
-        <div class="recherche">
-            <input type="search" id="site-search" name="Search">
+            <div class="recherche">
+                <div class="bar">
+                    <input type="search" id="site-search" name="Search">
+                </div>    
             <input type="submit" value="Recherche"><br>
-        </div>
-        <p class="prix"> Prix</p><br>
-        <div class="val">
-            <p class="valeur">min :</p>
-            <div class="input">
-                <input type="text" id="price" name="min"><br>
-            </div>    
-            <p class="valeur">max :</p>
+            </div>
+        <div class="p">
+            <h3> Prix</h3><br>
+            <div class="val"> 
                 <div class="input">
-                    <input type="text" id="price" name="max"><br>
+                    <input type="text" id="price" name="min" value="min">
+                    <input type="text" id="price" name="max" value="max">
                 </div>
+            </div>    
         </div>
         <div class="quantity">
-            <p>Quantité : </p>
-            <input type="number" id="quantity" name="quantity" min="1" max="10"><br>
+            <h3>Quantité</h3>
+            <div class="Q">
+                <input type="number" id="quantity" name="quantity" min="1" max="10"><br>
+            </div>
         </div>
         <div class="type">
-            <p>Type de propriété : </p><br>
-            <input type="text" id="type of property"><br>
+            <h3>Type de propriété</h3>
+            <div class="T">
+                <input type="text" id="type of property">
+            </div>
         </div>
         <div class="rech">
             <input type="submit" value="Recherche">
         </div>
-    </div>    
+</div>    
     
 </body>
 </html>

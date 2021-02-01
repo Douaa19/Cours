@@ -349,52 +349,57 @@
     display: none;
   }
 .formulaire{
-    border: solid rgb(179, 179, 179);
+    border: solid rgb(241, 182, 182);
     border-radius: 5px;
-    margin: 20px 475px 0 475px;
-    padding: 30px 25px 30px 25px;
+    margin: 140px 475px 0 475px;
+    padding: 50px 35px 50px 35px;
     font-family: Arial, Helvetica, sans-serif;
-    color: rgb(255, 255, 255);
-    background-color: rgb(87, 80, 79);
+    color: rgb(0, 0, 0);
+    background-color: rgb(197, 193, 193);
+}
+.bar{
+  margin-right: 5px;
 }
 .recherche{
-  text-align: center;
-}
-.prix{
-  margin: 35px 0 0 0;
-}
-.val{
+  margin-top: 15px;
   display: flex;
-  margin: 0 15px 0 15px;
+  justify-content: center;
+  
 }
-.valeur{
-  margin: 15px 0 0 5px;
+.p{
+  margin: 20px 0;
   display: flex;
-  align-items: center;
+  justify-content: space-between;
+  align-items: flex-end;
 }
-
+h3{
+  margin: 35px 0 0 20px;
+}
 .input{
-  margin: 15px 0 0 5px;
+  margin: 15px 0px 0 5px;
+  padding: 0 45px;
   text-align: center;
   display: flex;
-  justify-content: space-around;
-  align-items: center;
-
 }
 .quantity{
   margin: 20px 5px 5px 0px;
   display: flex;
-  align-items: center;
+  align-items: flex-end;
+}
+.Q{
+  padding: 0 10px;
 }
 .type{
-  margin: 5px;
+  margin: 5px 0 0 0px;
   display: flex;
-  align-items: center;
-  
+  align-items: flex-end;
+}
+.T{
+  padding: 0 10px;
 }
 .rech{
   text-align: center;
-  padding-top: 20px;
+  padding-top: 40px;
 }
 
 

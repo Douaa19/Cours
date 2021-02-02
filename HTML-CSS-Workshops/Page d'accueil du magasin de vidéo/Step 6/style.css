@@ -347,7 +347,9 @@
   [hidden] {
     display: none;
   }
-
+.container{
+  width: 960px;
+}
 .head{
     display: flex;
 }
@@ -401,7 +403,7 @@ h3 {
 .text {
     font-size: 12px;
     font-family: sans-serif;
-    margin: 10px 1000px 10px 15px;
+    margin: 10px 500px 10px 15px;
 }
 .demo {
     box-sizing:border-box;
@@ -410,7 +412,9 @@ h3 {
 }
 .product{
     border: 2px solid#BEBEBE;
-    margin: 20px 10px 0px 10px;
+    width: 216px;
+    margin-right: 10px;
+    margin-left: 10px;
 }
 .img{
     border: 1px solid #8BBEE9;
@@ -453,6 +457,32 @@ h3 {
 .section {
     display: flex;
 }
+@media (max-width: 960px){
+  .head{
+    display: block;
+  }
+  h1{
+    margin-left: 190px;
+    box-sizing: border-box;
+    align-items: center;
+  }
+  .ul{
+    margin-left: 50px;
+  }
+  .section{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  .product{
+    margin-bottom: 15px;
+    width: 426px;
+  }
+}
+
+
 
 
 

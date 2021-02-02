@@ -1,0 +1,86 @@
+.nav{
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: 1px solid rgb(198, 198, 201);
+    display: flex;
+}
+.logo{
+    margin: 0 0 0 200px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+ul{
+    list-style: none;
+    margin: 20px 40px 20px 250px;
+    display: flex;
+}
+a{
+    font-size: 15px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+a:hover{
+    color: blue;
+}
+li{
+    padding: 10px;
+}
+.h1{
+    padding: 20px;
+    margin: 5px 440px;
+}
+.section{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.para{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin: 35px 440px;
+}
+.p{
+   padding: 0px; 
+}
+.a{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 30px 440px 20px 440px;
+}
+h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+.parag{
+    font-size: 20px;
+}
+.a1{
+    margin: 35px 440px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h3{
+    font-size: 22px;
+}
+.par{
+    padding: 5px 0px;
+    font-size: 20px;
+}
+.bor{
+    border-left: 2px solid rgb(155, 155, 245);
+    padding-left: 60px;
+}
+footer{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(5, 5, 71);
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+h4{
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+
+

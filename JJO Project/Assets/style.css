@@ -1,5 +1,9 @@
 .tw{
-    width: 1519px;
+    width: 84%;
+    padding: 30px 100px;
+}
+.tw1{
+    padding-right: 5%;
 }
 header{
     height: 60vh;
@@ -15,9 +19,6 @@ ul{
     padding: 15px;
     list-style: none;
     display: flex;
-}
-.li{
-    
 }
 .di{
     text-decoration: none;
@@ -47,16 +48,14 @@ ul{
     border-radius: 3px;
 }
 .ln{
-    padding: 10px 100px;
     display: flex;
     justify-content: space-between;
+    padding-bottom: 130px;
     
 }
 .desc{
     color: white;
-    padding: 80px 0 100px 100px;
-    
-width: 50%;
+    width: 50%;
 }
 h1{
     font-size: 35px;
@@ -112,6 +111,7 @@ section{
 .jp{
     color:black;
     margin: 0 30px 0 0;
+    width: 33%;
 
 }
 .container{
@@ -148,30 +148,32 @@ section{
 .pf{
     padding: 20px 0 0;
     display: flex;
-    justify-content: space-between;
     align-items: flex-end;
 }
 .pf1{
     padding: 20px 0 0;
     display: flex;
-    justify-content: space-between;
+    align-items: flex-end;
 }
-.p1{
-    padding: 0 30px 0 0;
+.p2{
     color: #959595;
+    padding: 0 10px 0 0;
 }
 .p{
     background-color: rgb(255, 255, 255);
     color: #959595;
+    padding: 0 47px 0 0;
 }
 .jp1{
     border-left: 1px solid #B3B3B3;
     padding: 0 30px;
+    width: 33%;
     
 }
 .jp2{
     border-left: 1px solid #B3B3B3;
     padding: 0 0 0 30px;
+    width: 33%;
 }
 
 

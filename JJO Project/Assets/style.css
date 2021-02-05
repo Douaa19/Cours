@@ -178,7 +178,7 @@ section{
 }
 .tw2{
     /* border: 1px solid black; */
-    margin: 50px 0 0 0;
+    margin: 50px 0 40px 0;
 }
 .h{
     color: black;
@@ -192,20 +192,30 @@ section{
     display: flex;
     justify-content: space-between;
 }
-.iandp{
-    
-    text-align: center;
+.iandp {
+    width: calc(10% - 15px);
+    /* background-color: #CCC; */
 }
-.icone{
+.icone {
+    border: 1px solid#E2E2E2;
     width: 30px;
     height: 30px;
-    
+    padding: 15px;
     border-radius: 30px;
+    margin: auto;
+    text-align: center;
+    line-height: 38px;
+}
+.i{
+    width: 20px;
+    height: 20px;
 }
 .pi{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     font-size: 12px;
+    margin: 10px 0 0 0;
+    text-align: center;
 }
 .image{
     height: 261px;

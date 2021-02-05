@@ -60,7 +60,8 @@ ul{
 h1{
     font-size: 35px;
     padding: 0 0 25px;
-    
+    font-size: 35px;
+    font-weight: bold;
 }
 .p1{
     margin-bottom: 30px;
@@ -102,6 +103,7 @@ section{
     display: flex;
     justify-content: space-between;
     align-items: baseline;
+    padding: 15px 0 0 0;
 }
 .g{
     font-family: Arial, Helvetica, sans-serif;
@@ -129,6 +131,7 @@ section{
 
 .h3{
     color: #4281FB;
+    font-weight: bold;
 }
 .h4{
     background-color: rgb(255, 255, 255);
@@ -151,7 +154,6 @@ section{
     align-items: flex-end;
 }
 .pf1{
-    padding: 20px 0 0;
     display: flex;
     align-items: flex-end;
 }
@@ -162,7 +164,6 @@ section{
 .p{
     background-color: rgb(255, 255, 255);
     color: #959595;
-    padding: 0 47px 0 0;
 }
 .jp1{
     border-left: 1px solid #B3B3B3;
@@ -175,5 +176,91 @@ section{
     padding: 0 0 0 30px;
     width: 33%;
 }
+.tw2{
+    /* border: 1px solid black; */
+    margin: 50px 0 0 0;
+}
+.h{
+    color: black;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding: 15px 0 0 0;
+}
+.icones{
+    
+    display: flex;
+    justify-content: space-between;
+}
+.iandp{
+    
+    text-align: center;
+}
+.icone{
+    width: 30px;
+    height: 30px;
+    
+    border-radius: 30px;
+}
+.pi{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+}
+.image{
+    height: 261px;
+    background-image: url(./images/Newsletter-image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.tw3{
+    color: white;
+    background-color: black;
+    margin: 30px 0;
+
+}
+.box{
+    width: 31%;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 60px 0 0 50px;
+}
+.lastp{
+    padding: 0 0 10px 0;
+}
+.subscribe{
+    padding: 20px 0 0 0;
+
+}
+.input{
+    border-radius: 3px;
+    border: white;
+    padding: 8px 165px 8px 15px;
+    font-size: 10px;
+    margin-right: 13px;
+}
+.button{
+    border: white;
+    color: white;
+    border-radius: 3px;
+    background-color: #4281FB;
+    padding: 8px 22px;
+    font-weight: bold;
+    font-size: 10px;
+}
+footer {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 300px;
+    margin: 0px 100px 20px 100px;
+}
+a{
+    text-decoration: none;
+    color: #959595;
+}
+
 
 

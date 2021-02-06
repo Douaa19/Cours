@@ -99,58 +99,117 @@
     align-items: center;
 }
 
-.section .main .box{
+.section .box1 .main{
     border-right: 1px solid gray;
 }
 
-.section .main .header-main{
+.section .box1 .main .header-main{
     display: flex;
     justify-content: space-between;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 
-.section .main .header-main h3{
+.section .box1 .main .header-main h3{
     font-weight: 600;
     color: blue;
 }
 
-.section .main .header-main p{
+.section .box1 .main .header-main p{
     color: gray;
     position: relative;
     top: 0%;
 }
 
-.section .smal-header-main{
+.section .box1 .smal-header-main{
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
     padding-top: 4px;
 }
 
-.section .smal-header-main .place{
 
-}
-
-.section .smal-header-main .place-city{
+.section .box1 .smal-header-main .place-city{
     color: gray;
 }
 
-.section .box{
+.section .box1 {
     border-right: 1px solid gray;
 }
 
-.section .text-main{
+.section .box1 .text-main{
     display: flex;
-    align-items: flex-start;
+    justify-content: space-between;
+    align-items: flex-end;
     font-family: Arial, Helvetica, sans-serif;
     margin-top: 25px;
 }
 
-.section .text-main p{
+.section .box1 .text-main p{
     color: gray;
 }
 
-.section .text-main .flech-main p{
+.section .box1 .text-main .flech-main p{
+    color: white;
+    background-color: blue;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.section .boxs{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.section .box2 .main{
+    border-right: 1px solid gray;
+}
+
+.section .box2 .main .header-main{
+    display: flex;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.section .box2 .main .header-main h3{
+    font-weight: 600;
+    color: blue;
+}
+
+.section .box2 .main .header-main p{
+    color: gray;
+    position: relative;
+    top: 0%;
+}
+
+.section .box2 .smal-header-main{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    padding-top: 4px;
+}
+
+
+.section .box2 .smal-header-main .place-city{
+    color: gray;
+}
+
+.section .box2 {
+    border-right: 1px solid gray;
+}
+
+.section .box2 .text-main{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 25px;
+}
+
+.section .box2 .text-main p{
+    color: gray;
+}
+
+.section .box2 .text-main .flech-main p{
     color: white;
     background-color: blue;
     padding: 5px 10px;

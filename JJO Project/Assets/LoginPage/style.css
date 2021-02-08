@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: sans-serif;
-    background: #3574f3b0;
+    background: #6161FF;
 }
 
 .login {
@@ -19,7 +19,8 @@ body {
 }
 
 .login h1 {
-    color: #B3B3B3;
+    font-family: sans-serif;
+    color: #6B778A;
     text-transform: uppercase;
     font-weight: 500;
 }
@@ -31,11 +32,10 @@ body {
     display: block;
     margin: 20px auto;
     text-align: center;
-    border: 2px solid #3574f3b0;
+    border: 2px solid #E4E0FF;
     padding: 14px 10px;
     width: 200px;
     outline: none;
-    color: rgb(255, 255, 255);
     border-radius: 24px;
     transition: 0.25s;
 }
@@ -43,7 +43,7 @@ body {
 .login input[type="text"]:focus,
 .login input[type="password"]:focus {
     width: 280px;
-    border-color: #B3B3B3;
+    border-color: #6B778A;
 }
 
 .login input[type="submit"] {
@@ -52,15 +52,15 @@ body {
     display: block;
     margin: 20px auto;
     text-align: center;
-    border: 2px solid #3574f3b0;
+    border: 2px solid #6161FF;
     padding: 14px 40px;
     outline: none;
-    color: #B3B3B3;
+    color: #6B778A;
     border-radius: 24px;
     transition: 0.25s;
     cursor: pointer;
 }
 
 .login input[type="submit"]:hover {
-    background: #3574f3b0;
+    background: #6161FF;
 }

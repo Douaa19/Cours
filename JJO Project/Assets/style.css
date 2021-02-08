@@ -469,9 +469,9 @@ section .bottom-section .bottom .main-image button{
         background-image: none;
     }
     .footer ul{
-        font-size: 9px;
+        font-size: 7px;
         text-align: center;
-
+        padding: 25px 0px;
     }
         
     

@@ -3,6 +3,7 @@
     margin: auto;
 }
 
+
 .header {
     height: 80vh;
     background-image: url(../Assets/images/hero-image.png);
@@ -99,9 +100,7 @@ section .header-section p{
     align-items: center;
 }
 
-section .main{
 
-}
 
 section .box1 .header-main{
     display: flex;
@@ -162,9 +161,7 @@ section main{
 }
 
 
-section .box2 {
 
-}
 
 section .box2 .header-main{
     display: flex;
@@ -219,8 +216,7 @@ section .box2 .text-main .flech-main p{
     border-radius: 5px;
 }
 
-section .box3 {
-}
+
 
 section .box3  .header-main{
     display: flex;
@@ -287,39 +283,47 @@ section .body-section .icons{
     /* border: 1px solid black; */
     display: flex;
     justify-content: space-between;
-    margin: 30px 0;
+    margin: 20px 0 30px 0;
 }
 
-/* .icons img {
-    width: 50%;
-    height: 50%;
-    align-items: center;
-} */
+ .icons img { 
+    width: 40%;
+    height: 40%;
+} 
 
 
 
 section .body-section .icons .icon{
-    /* border: 1px solid gray; */
-    width: 30px;
-    height: 30px;
+    border: 1px solid #6B778A;
+    width: 45px;
+    height: 45px;
     border-radius: 50%;
     display: flex;
+    /* justify-content: flex-start; */
     flex-direction: column;
-    justify-content: center;
     align-items: center;
 }
 .i{
-    width: 40%;
-    height: 40%;
-    line-height: ;
+    width: 50%;
+    height: 50%;
+    padding: 10px;
+    padding: 8px;
+    margin-top: 6px;
 }
 
 section .body-section .icons .icon p {
-    margin-top: 2em;
+    margin-top: 0em;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 13px;
     font-weight: 600;
+    /* border: 1px solid red; */
+    width: max-content;
+    margin-top: 15px;
+}
+
+section .bottom-section .bottom{
+    margin-top: 35px;
 }
 
 

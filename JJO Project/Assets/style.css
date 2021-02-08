@@ -417,13 +417,52 @@ section .bottom-section .bottom .main-image button{
     .header .header-body {
         display: flex;
         flex-direction: column;
-        align-items: center;
-        position: absolute;
-        left: 27%;
+        align-items: flex-start;
+    }
+
+
+    section .body-main{
+        display: flex;
+        flex-direction: column;
+    }
+    
+
+    section .box1{
+        border: none;
+        padding: 0;
+    }
+
+    section .box2{
+        border: none;
+        padding: 0;
+        margin-top: 20px;
+    }
+
+    section .box3{
+        border: none;
+        padding: 0;
+        margin-top: 20px;
+    }
+
+    section .box1 .text-main {
+        margin-top: 10px;
     }
 
     section .box2 .text-main {
-        margin-top: 40px;
+        margin-top: 10px;
+    }
+
+    section .box3 .text-main {
+        margin-top: 10px;
+    }
+
+    section .box3 .header-main{
+        
+    }
+
+    section .box3 .smal-header-main{
+        display: flex;
+        flex-direction: column;
     }
 
     section .bottom-section .bottom .main-image{

@@ -69,7 +69,7 @@
 .header .header-body button {
     border: none;
     outline: none;
-    background-color: mediumblue;
+    background-color: blue;
     color: #FFF;
     cursor: pointer;
     text-transform: capitalize;
@@ -78,7 +78,7 @@
     font-weight: 600;
 }
 
-.section .header-section{
+section .header-section{
     display: flex;
     justify-content: space-between;
     padding-top: 30px;
@@ -86,58 +86,58 @@
 }
 
 
-.section .header-section h2{
+section .header-section h2{
     font-size: 32px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 
-.section .header-section p{
+section .header-section p{
     color: blue;
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
     align-items: center;
 }
 
-.section .box1 .main{
+section .main{
 
 }
 
-.section .box1 .main .header-main{
+section .box1 .header-main{
     display: flex;
     justify-content: space-between;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 
-.section .box1 .main .header-main h3{
+section .box1 .header-main h3{
     font-weight: 600;
     color: blue;
 }
 
-.section .box1 .main .header-main p{
-    color: gray;
+section .box1 .header-main p{
+    color: #6B778A;
     position: relative;
     top: 0%;
 }
 
-.section .box1 .smal-header-main{
+section .box1 .smal-header-main{
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
     padding-top: 4px;
 }
 
 
-.section .box1 .smal-header-main .place-city{
-    color: gray;
+section .box1 .smal-header-main .place-city{
+    color: #6B778A;
 }
 
-.section .box1 {
-    border-right: 1px solid gray;
+section .box1 {
+    border-right: 1px solid #6B778A;
     padding: 0 20px 0 0
 }
 
-.section .box1 .text-main{
+section .box1 .text-main{
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
@@ -145,62 +145,62 @@
     margin-top: 25px;
 }
 
-.section .box1 .text-main p{
-    color: gray;
+section .box1 .text-main p{
+    color: #6B778A;
 }
 
-.section .box1 .text-main .flech-main p{
+section .box1 .text-main .flech-main p{
     color: white;
     background-color: blue;
     padding: 5px 10px;
     border-radius: 5px;
 }
-.section .boxs{
+section main{
     display: flex;
     justify-content: space-between;
     margin-bottom: 40px;
 }
 
 
-.section .box2 .main{
+section .box2 {
 
 }
 
-.section .box2 .main .header-main{
+section .box2 .header-main{
     display: flex;
     justify-content: space-between;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 
-.section .box2 .main .header-main h3{
+section .box2 .header-main h3{
     font-weight: 600;
     color: blue;
 }
 
-.section .box2 .main .header-main p{
-    color: gray;
+section .box2 .main .header-main p{
+    color: #6B778A;
     position: relative;
     top: 0%;
 }
 
-.section .box2 .smal-header-main{
+section .box2 .smal-header-main{
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
     padding-top: 4px;
 }
 
 
-.section .box2 .smal-header-main .place-city{
-    color: gray;
+section .box2 .smal-header-main .place-city{
+    color: #6B778A;
 }
 
-.section .box2 {
-    border-right: 1px solid gray;
+section .box2 {
+    border-right: 1px solid #6B778A;
     padding: 0px 25px;
 }
 
-.section .box2 .text-main{
+section .box2 .text-main{
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
@@ -208,54 +208,54 @@
     margin-top: 25px;
 }
 
-.section .box2 .text-main p{
-    color: gray;
+section .box2 .text-main p{
+    color: #6B778A;
 }
 
-.section .box2 .text-main .flech-main p{
+section .box2 .text-main .flech-main p{
     color: white;
     background-color: blue;
     padding: 5px 10px;
     border-radius: 5px;
 }
 
-.section .box3 .main{
+section .box3 {
 }
 
-.section .box3 .main .header-main{
+section .box3  .header-main{
     display: flex;
     justify-content: space-between;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 
-.section .box3 .main .header-main h3{
+section .box3  .header-main h3{
     font-weight: 600;
     color: blue;
 }
 
-.section .box3 .main .header-main p{
-    color: gray;
+section .box3  .header-main p{
+    color: #6B778A;
     position: relative;
     top: 0%;
 }
 
-.section .box3 .smal-header-main{
+section .box3 .smal-header-main{
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
     padding-top: 4px;
 }
 
 
-.section .box3 .smal-header-main .place-city{
-    color: gray;
+section .box3 .smal-header-main .place-city{
+    color: #6B778A;
 }
 
-.section .box3 {
+section .box3 {
     padding: 0 0 0 20px;
 }
 
-.section .box3 .text-main{
+section .box3 .text-main{
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
@@ -263,18 +263,18 @@
     margin-top: 25px;
 }
 
-.section .box3 .text-main p{
-    color: gray;
+section .box3 .text-main p{
+    color: #6B778A;
 }
 
-.section .box3 .text-main .flech-main p{
+section .box3 .text-main .flech-main p{
     color: white;
     background-color: blue;
     padding: 5px 10px;
     border-radius: 5px;
 }
 
-.section .body-section h2{
+section .body-section h2{
     text-transform: capitalize;
     font-size: 32px;
     color: rgb(0, 0, 0);
@@ -283,38 +283,47 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.section .body-section .icons{
+section .body-section .icons{
     /* border: 1px solid black; */
     display: flex;
     justify-content: space-between;
     margin: 30px 0;
 }
 
-.i{
-    width: 90%;
-    margin: auto;
-}
+/* .icons img {
+    width: 50%;
+    height: 50%;
+    align-items: center;
+} */
 
-.section .body-section .icons .icon{
-    text-align: center;
-    width: calc(10% - 15px);
-}
 
-.section .body-section .icons .icon img{
-    border: 1px solid gray;
+
+section .body-section .icons .icon{
+    /* border: 1px solid gray; */
     width: 30px;
     height: 30px;
     border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.i{
+    width: 40%;
+    height: 40%;
+    line-height: ;
 }
 
-
-.section .body-section .icons .icon p{
+section .body-section .icons .icon p {
+    margin-top: 2em;
+    text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 13px;
     font-weight: 600;
 }
 
-.section .bottom-section .bottom .main-image{
+
+section .bottom-section .bottom .main-image{
     /* border: 2px solid black; */
     background-image: url(./images/Newsletter-image.png);
     background-repeat: no-repeat;
@@ -326,11 +335,11 @@
     
 }
 
-.section .bottom-section .bottom .main-image .text-image{
+section .bottom-section .bottom .main-image .text-image{
     padding: 25px 0 0 40px;
 }
 
-.section .bottom-section .bottom .main-image h2{
+section .bottom-section .bottom .main-image h2{
     text-transform: capitalize;
     color: white;
     font-size: 32px;
@@ -339,13 +348,13 @@
     font-weight: 600;
 }
 
-.section .bottom-section .bottom .main-image p{
+section .bottom-section .bottom .main-image p{
     width: 45%;
     margin: 20px 0;
     font-size: 14px;
 }
 
-.section .bottom-section .bottom .main-image input{
+section .bottom-section .bottom .main-image input{
     border-radius: 4px;
     padding: 10px 120px 10px 10px;
     margin: 0 10px 0 0;
@@ -353,7 +362,7 @@
     border: white;
 }
 
-.section .bottom-section .bottom .main-image button{
+section .bottom-section .bottom .main-image button{
     border-radius: 4px;
     background-color: blue;
     border: white;
@@ -372,5 +381,9 @@
 
 .footer ul li a{
     text-decoration: none;
-    color: gray;
+    color: #6B778A;
 }
+
+/* #6B778A gray */
+/* #E4E0FF blue- */
+/* #6161FF */

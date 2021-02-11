@@ -1,0 +1,67 @@
+.container{
+    width: 90%;
+    margin: auto;
+    font-family: 'Amiko', sans-serif;
+    font-weight: bold;
+}
+header{
+    background-image: url(../img/image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 809px;
+}
+
+header .nav-logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .nav-logo .logo h2{
+    font-weight: bold;
+    font-size: 50px;
+    color: #F4F4F4;
+}
+
+header .nav-logo .nav{
+    width: 50%;
+}
+
+header .nav-logo .nav ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+header .nav-logo .nav ul li a{
+    text-decoration: none;
+    color:#F4F4F4;;
+}
+
+header .hero-header{
+    width: 59%;
+    display: flex;
+    justify-content: space-between;
+    color: #F4F4F4;
+}
+
+header .hero-header .salutation h1{
+    font-size: 100px;
+}
+
+header .hero-header .salutation p{
+    font-size: 50px;
+    width: 70%;
+}
+
+header .hero-header .button{
+    display: flex;
+    align-items: flex-end;
+}
+
+header .hero-header .button input{
+    padding: 15px;
+    border-radius: 33px;
+    font-size: 23px;
+    background-color: #FF8A00;
+    color: #F4F4F4;
+}

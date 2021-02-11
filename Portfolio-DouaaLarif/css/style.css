@@ -39,6 +39,7 @@ header .nav-logo .nav ul li a{
 
 header .hero-header{
     width: 59%;
+    margin-top: 25em;
     display: flex;
     justify-content: space-between;
     color: #F4F4F4;

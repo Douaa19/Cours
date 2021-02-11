@@ -1,0 +1,14 @@
+.Couleurs
+    FF8A00: orange
+    000000: noir
+    F4F4F4: blac
+
+.Typofraphy
+    Headings:
+        >Amiko - bold 
+    Body:
+        >Amiko - bold
+. Icons
+    Facebook - https://icons8.com/icons/set/facebook
+    Github - https://icons8.com/icons/set/github--black
+    Linkedin - https://icons8.com/icons/set/linkedin--black

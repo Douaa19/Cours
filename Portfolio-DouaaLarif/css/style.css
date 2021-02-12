@@ -95,7 +95,7 @@ header .hero-header .button input:hover{
         background-size: 100% 100%;
         background-repeat:no-repeat;
         width: 100%;
-        height: auto;
+        height: 640px;
         overflow: hidden;
     }
 
@@ -107,6 +107,14 @@ header .hero-header .button input:hover{
 
     header .nav-logo .nav {
         font-size: 13px;
+    }
+
+    header .hero-header{
+        margin-top: 17em;
+    }
+
+    header .hero-header .salutation{
+        margin-bottom: 10em;
     }
 
     header .hero-header .salutation h1{
@@ -121,6 +129,7 @@ header .hero-header .button input:hover{
 
     header .hero-header .button input{
         font-size: 15px;
-        padding: 10px 25px
+        padding: 10px 25px;
+        margin-bottom: 11em;
     }
 }

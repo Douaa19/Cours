@@ -141,8 +141,8 @@ header .hero-header .button input:hover{
         background-size: 100% 30%
     }
 
-    header .nav-logo{
-
+    header .nav-logo .logo{
+        margin-top: 1.5em;
     }
 
     header .nav-logo .logo h2{
@@ -155,9 +155,7 @@ header .hero-header .button input:hover{
     }
 
     header .hero-header{
-        display: flex;
-        justify-content: space-between;
-        flex-direction: column;
+        margin-top: 0;
     }
 
     header .hero-header{
@@ -165,11 +163,14 @@ header .hero-header .button input:hover{
         flex-direction: column;
         align-items: center;
         width: auto;
+        margin-top: 4em;
+        line-height: 1.5em;
     }
 
     header .hero-header .salutation h1{
         font-size: 35px;
         text-align: center;
+        padding: 0;
     }
 
     header .hero-header .salutation p{
@@ -180,7 +181,8 @@ header .hero-header .button input:hover{
 
     header .hero-header .button input{
         font-size: 10px;
-        padding: 10px 25px;
+        padding: 8px 35px;
         width: 100%;
+        margin-top: 2em;
     }
 }

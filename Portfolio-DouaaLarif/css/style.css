@@ -44,8 +44,7 @@ header .nav-logo .nav ul li a{
 }
 
 header .nav-logo .nav ul li a:hover{
-    text-decoration: underline #E07800;
-    color:  #E07800;
+    text-decoration: underline #ffffff;
 }
 
 header .hero-header{
@@ -185,4 +184,12 @@ header .hero-header .button input:hover{
         width: 100%;
         margin-top: 2em;
     }
+}
+
+section .portfolio h2{
+    color: #E07800;
+    font-size: 50px;
+    text-decoration: underline #E07800;
+    padding-top: 1.5em;
+    padding-bottom: 1em;
 }

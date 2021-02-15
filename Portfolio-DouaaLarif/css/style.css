@@ -103,21 +103,42 @@ section .portfolio h2{
     color: black;
 } hover portfolio*/
 
-section .section-projet .boxs{;
+section .section-projet .boxs{
     display: flex;
     flex-direction: column;
+    
 }
 
 section .section-projet .portfolio .box1{
     display: grid;
     grid-template-columns: 60% 1fr;
+    margin: 15px 0;
 }
 
 section .section-projet .portfolio .box1 .projet{
-    padding: 20px;
     background-color: #E07800;
     border-radius: 0 30px 30px 0;
+}
+
+section .section-projet .portfolio .box1 .projet{
     display: flex;
+    padding: 40px 40px 40px 85px;
+}
+
+section .section-projet .portfolio .box1 .projet .img-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section .section-projet .portfolio .box1 .projet .img-title h3{
+    font-size: 30px;
+    margin-top: 15px;
+}
+
+section .section-projet .portfolio .box1 .projet p{
+    font-size: 25px;
+    margin-left: 15px;
 }
 
 section .section-projet .portfolio .box2{
@@ -126,38 +147,33 @@ section .section-projet .portfolio .box2{
 }
 
 section .section-projet .portfolio .box2 .projet{
-    padding: 20px;
     border-radius: 30px 0 0 30px;
     background-color: #E07800;
     display: grid;
     grid-area: 2/2/3/3;
     display: flex;
+    flex-direction: row-reverse;
+    padding: 40px 80px 40px 40px;
 }
 
-section .section-projet .portfolio .box3{
-    display: grid;
-    grid-template-columns: 60% 1fr;
-}
-
-section .section-projet .portfolio .box3 .projet{
-    padding: 20px;
-    background-color: #E07800;
-    border-radius: 0 30px 30px 0;
+section .section-projet .portfolio .box2 .projet .img-title{
     display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-section .section-projet .portfolio .box4{
-    display: grid;
-    grid-template-columns: 1fr 60%;
+section .section-projet .portfolio .box2 .projet .img-title h3{
+    font-size: 30px;
+    margin-top: 15px;
 }
 
-section .section-projet .portfolio .box4 .projet{
-    padding: 20px;
-    border-radius: 30px 0 0 30px;
-    background-color: #E07800;
-    display: grid;
-    grid-area: 2/2/3/3;
-    display: flex;
+section .section-projet .portfolio .box2 .projet  p{
+    font-size: 25px;
+    margin-right: 15px;
+}
+
+section .section-about{
+    margin-bottom: 5em;
 }
 
 section .section-about h2{
@@ -168,10 +184,21 @@ section .section-about h2{
     margin-bottom: 1em;
 }
 
+section .section-about .text{
+    width: 80%;
+    margin: auto;
+    padding-bottom: 5px;
+    border-bottom: 5px solid #E07800;
+    box-shadow: 3px 3px 5px 6px;
+}
+
 section .section-about .text p{
     background-color: #E07800;
     font-size: 25px;
+    padding: 20px;
 }
+
+
 
 
 

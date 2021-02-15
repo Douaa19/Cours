@@ -160,6 +160,19 @@ section .section-projet .portfolio .box4 .projet{
     display: flex;
 }
 
+section .section-about h2{
+    color: #E07800;
+    font-size: 50px;
+    text-decoration: underline  #E07800;
+    padding-top: 1.5em;
+    margin-bottom: 1em;
+}
+
+section .section-about .text p{
+    background-color: #E07800;
+    font-size: 25px;
+}
+
 
 
 

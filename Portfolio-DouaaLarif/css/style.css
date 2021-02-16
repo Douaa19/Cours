@@ -226,7 +226,6 @@ section .section-competences .container .html{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
 }
 
 section .section-competences .container .html .icon-html{
@@ -239,7 +238,7 @@ section .section-competences .container .html .icon-html{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 15px;
+    margin-bottom: 25px;
 }
 
 section .section-competences .container .html .text-html{
@@ -257,7 +256,6 @@ section .section-competences .container .css{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
 }
 
 section .section-competences .container .css .icon-css{
@@ -270,7 +268,7 @@ section .section-competences .container .css .icon-css{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 15px;
+    margin-bottom: 25px;
 }
 
 section .section-competences .container .css .text-css{
@@ -288,7 +286,6 @@ section .section-competences .container .balsamiq{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
 }
 
 section .section-competences .container .balsamiq .icon-balsamiq{
@@ -301,7 +298,7 @@ section .section-competences .container .balsamiq .icon-balsamiq{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 15px;
+    margin-bottom: 25px;
 }
 
 section .section-competences .container .balsamiq .text-balsamiq{
@@ -319,7 +316,6 @@ section .section-competences .container .figma{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
 }
 
 section .section-competences .container .figma .icon-figma{
@@ -333,7 +329,7 @@ section .section-competences .container .figma .icon-figma{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-bottom: 15px;
+    margin-bottom: 25px;
 }
 
 section .section-competences .container .figma .text-figma{
@@ -346,6 +342,144 @@ section .section-competences .container .figma .text-figma{
 section .section-competences .container .figma .text-figma:hover{
     color: white;
 }
+
+section .section-contact .container h2{
+    color: #E07800;
+    font-size: 50px;
+    text-decoration: underline  #E07800;
+    padding-top: 1.5em;
+    margin-bottom: 1em;
+}
+
+section .section-contact .container .contact-form{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+section .section-contact .container .titl-message p{
+    font-size: 30px;
+}
+
+section .section-contact .container .contact-form .form{
+    border: 3px solid #E07800;
+    border-radius: 30px;
+    margin-bottom: 40px;
+}
+
+section .section-contact .container .contact-form .name{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    margin: 25px 20px 25px 25px;
+}
+
+section .section-contact .container .contact-form .name label{
+    font-size: 20px;
+}
+
+section .section-contact .container .contact-form .name input{
+    padding: 5px 5px 5px 10px;
+    border: 2px solid #E07800;
+    border-radius: 20px;
+    outline: none;
+}
+
+section .section-contact .container .contact-form .email{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    margin: 0px 20px 25px 25px;
+}
+
+section .section-contact .container .contact-form .email label{
+    font-size: 20px;
+}
+
+section .section-contact .container .contact-form .email input{
+    padding: 5px 5px 5px 10px;
+    border: 2px solid #E07800;
+    border-radius: 20px;
+    outline: none;
+}
+
+section .section-contact .container .contact-form .message{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    margin: 0px 20px 25px 25px;
+}
+
+section .section-contact .container .contact-form .message label{
+    font-size: 20px;
+}
+
+section .section-contact .container .contact-form .message textarea{
+    padding: 5px 5px 30px 10px;
+    height: 120px;
+    border: 2px solid #E07800;
+    border-radius: 20px;
+    outline: none;
+}
+
+section .container .social-media{
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+section .container .social-media .cercle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #E07800;
+    border-radius: 70px;
+    width: 100px;
+    height: 100px;
+}
+
+section .container .social-media .phone{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+section .container .social-media .facebook{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+section .container .social-media .github{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+section .container .social-media .linkedin{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
 
 
 
@@ -471,6 +605,73 @@ section .section-competences .container .figma .text-figma:hover{
     section .section-about .container .text p{
         font-size: 15px;
     }
+
+    /* Section-skils */
+    section .section-competences .container h2{
+        font-size: 25px;
+    }
+
+    section .section-competences .container .html .icon-html{
+        border-radius: 50;
+        width: 100px;
+        height: 100px;
+        margin-bottom: 15px;
+    }
+
+    section .section-competences .container .html .text-html{
+        font-size: 15px;
+        border-radius: 150px;
+        padding: 6px 30px;
+    }
+
+    section .section-competences .container .css .icon-css{
+        border-radius: 50;
+        width: 100px;
+        height: 100px;
+        margin-bottom: 15px;
+    }
+
+    section .section-competences .container .css .text-css{
+        font-size: 15px;
+        border-radius: 150px;
+        padding: 6px 35px;
+    }
+
+    section .section-competences .container .balsamiq .icon-balsamiq{
+        border-radius: 50;
+        width: 100px;
+        height: 100px;
+        margin-bottom: 15px;
+    }
+
+    section .section-competences .container .balsamiq .text-balsamiq{
+        font-size: 15px;
+        border-radius: 150px;
+        padding: 6px 19px;
+    }
+
+    section .section-competences .container .figma .icon-figma{
+        border-radius: 50;
+        width: 100px;
+        height: 100px;
+        margin-bottom: 15px;
+    }
+
+    section .section-competences .container .figma .text-figma{
+        font-size: 15px;
+        border-radius: 150px;
+        padding: 6px 30px;
+    }
+
+    /* Section-contact */
+    section .section-contact .container h2{
+        font-size: 25px;
+    }
+
+    section .section-contact .container .contact-form .titl-message p{
+        font-size: 15px;
+    }
+
 }
 
 
@@ -539,7 +740,8 @@ section .section-competences .container .figma .text-figma:hover{
         display: flex;
         justify-content: center;
     }
+
+
+
+
 }
-
-
-

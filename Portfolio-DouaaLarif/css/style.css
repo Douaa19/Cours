@@ -104,9 +104,10 @@ section .portfolio h2{
     margin-bottom: 1em;
 }
 
-/* section .portfolio h2:hover{
+section .portfolio h2:hover{
+    text-decoration: underline black;
     color: black;
-} hover portfolio*/
+}
 
 section .section-projet .boxs{
     display: flex;
@@ -199,6 +200,11 @@ section .section-about h2{
     margin-bottom: 1em;
 }
 
+section .section-about h2:hover{
+    color: black;
+    text-decoration: underline  black;
+}
+
 section .section-about .text{
     width: 80%;
     margin: auto;
@@ -217,6 +223,11 @@ section .section-competences .container h2{
     font-size: 50px;
     text-decoration: underline  #E07800;
     margin-bottom: 1em;
+}
+
+section .section-competences .container h2:hover{
+    color: black;
+    text-decoration: underline  black;
 }
 
 section .section-competences .container .icon-competences{
@@ -354,6 +365,11 @@ section .section-contact .container h2{
     text-decoration: underline  #E07800;
     padding-top: 1.5em;
     margin-bottom: 1em;
+}
+
+section .section-contact .container h2:hover{
+    color: black;
+    text-decoration: underline  black;
 }
 
 section .section-contact .container .contact-form{
@@ -649,10 +665,6 @@ footer .container .footer .icons-copyright ul li .up{
         padding: 20px 20px 20px 60px;
     }
 
-    section .section-projet .portfolio .box1 .projet .img-title{
-        
-    }
-
     section .section-projet .portfolio .box1 .projet .img-title img{
         width: 200px;
     }
@@ -757,6 +769,16 @@ footer .container .footer .icons-copyright ul li .up{
         font-size: 25px;
     }
 
+    section .section-contact .container .contact-form{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 1fr;
+    }
+
+    section .section-contact .container .contact-form .form{
+        grid-column: span 2/4;
+    }
+
     section .section-contact .container .contact-form .titl-message p{
         font-size: 15px;
     }
@@ -824,7 +846,57 @@ footer .container .footer .icons-copyright ul li .up{
     section .section-contact .social-media .linkedin .cercle .adresse p{
         font-size: 12px;
     }
+    
+    /* Footer */
+    footer{
+        margin-top: 3em;
+    }
+
+    footer .container .footer{
+        padding: 15px 0;
+    }
+
+    footer .container .footer .copyright p{
+        font-size: 13px;
+    }
+
+    footer .container .footer .icons-copyright ul li img{
+        height: 30px;
+        width: 30px;
+    }
+    
+    footer .container .footer .icons-copyright ul li .up{
+        height: 25px;
+        width: 25px;
+    }
+
+
+
+
+
+
+
+
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -838,7 +910,8 @@ footer .container .footer .icons-copyright ul li .up{
         background-image: url(../img/image.jpg);
         background-repeat: no-repeat;
         background-size: cover;
-        width: 113%;
+        background-attachment: inherit;
+        width: 100%;
         height: 100%;
     }
 
@@ -864,7 +937,7 @@ footer .container .footer .icons-copyright ul li .up{
         flex-direction: column;
         align-items: center;
         width: auto;
-        margin-top: 4em;
+        padding: 2.5em 0;
         line-height: 1.5em;
     }
 
@@ -882,20 +955,22 @@ footer .container .footer .icons-copyright ul li .up{
 
     header .hero-header .button input{
         font-size: 10px;
-        padding: 8px 45px;
+        padding: 8px 50px;
         width: 100%;
         margin-top: 2em;
     }
 
-    section {
+    section .section-projet .portfolio h2{
+        text-align: center;
+        font-size: 15px;
+        padding: 1.5em 0 1em 0;
         margin: auto;
     }
+    
 
-    section .section-projet .portfolio h2{
-        font-size: 15px;
-        display: flex;
-        justify-content: center;
-    }
+    
+
+
 
 
 

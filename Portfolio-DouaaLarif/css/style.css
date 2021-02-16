@@ -463,12 +463,23 @@ section .container .social-media .phone{
     justify-content: center;
 }
 
-section .container .social-media .phone:hover{
-    
-}
 
 section .section-contact .social-media .phone .cercle .number p{
     font-size: 22px;
+    text-align: center;
+}
+
+section .section-contact .social-media .phone .cercle .number p:hover{
+    display: none;
+}
+
+section .section-contact .social-media .phone .cercle .number .reponse p{
+    display: none;
+}
+
+section .section-contact .social-media .phone .cercle .number .reponse p:hover{
+    color: black;
+    font-size: 10px;
 }
 
 section .container .social-media .facebook{
@@ -478,12 +489,16 @@ section .container .social-media .facebook{
     justify-content: center;
 }
 
-section .container .social-media .facebook:hover{
-    
-}
-
 section .section-contact .social-media .facebook .cercle .adresse p{
     font-size: 22px;
+}
+
+section .section-contact .social-media .facebook .cercle .adresse p:hover{
+    display: none;
+}
+
+section .section-contact .social-media .facebook .cercle .adresse .reponse p{
+    display: none;
 }
 
 section .container .social-media .github{
@@ -493,12 +508,16 @@ section .container .social-media .github{
     justify-content: center;
 }
 
-section .container .social-media .github:hover{
-    
-}
-
 section .section-contact .social-media .github .cercle .adresse p{
     font-size: 22px;
+}
+
+section .section-contact .social-media .github .cercle .adresse p:hover{
+    display: none;
+}
+
+section .section-contact .social-media .github .cercle .adresse .reponse p{
+    display: none;
 }
 
 section .container .social-media .linkedin{
@@ -508,12 +527,16 @@ section .container .social-media .linkedin{
     justify-content: center;
 }
 
-section .container .social-media .linkedin:hover{
-    
-}
-
 section .section-contact .social-media .linkedin .cercle .adresse p{
     font-size: 22px;
+}
+
+section .section-contact .social-media .linkedin .cercle .adresse p:hover{
+    display: none;
+}
+
+section .section-contact .social-media .linkedin .cercle .adresse .reponse p{
+    display: none;
 }
 
 /* footer */

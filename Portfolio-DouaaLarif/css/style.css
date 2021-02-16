@@ -11,6 +11,7 @@ header{
     background-image: url(../img/image.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
     height: 1010px;
 }
 
@@ -51,11 +52,15 @@ header .nav-logo .nav ul li a:hover{
 
 header .hero-header{
     width: 65%;
-    margin-top: 25em;
+    margin-top: 20em;
     display: flex;
     justify-content: space-between;
     color: #FFFFFF;
 }
+
+/* header .hero-header .salutation {
+    transform: translateY(1re);
+} */
 
 header .hero-header .salutation h1{
     font-size: 100px;
@@ -447,8 +452,8 @@ section .container .social-media .cercle{
     justify-content: center;
     border: 2px solid #E07800;
     border-radius: 70px;
-    width: 100px;
-    height: 100px;
+    width: 120px;
+    height: 120px;
 }
 
 section .container .social-media .phone{
@@ -458,11 +463,27 @@ section .container .social-media .phone{
     justify-content: center;
 }
 
+section .container .social-media .phone:hover{
+    
+}
+
+section .section-contact .social-media .phone .cercle .number p{
+    font-size: 22px;
+}
+
 section .container .social-media .facebook{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+section .container .social-media .facebook:hover{
+    
+}
+
+section .section-contact .social-media .facebook .cercle .adresse p{
+    font-size: 22px;
 }
 
 section .container .social-media .github{
@@ -472,11 +493,60 @@ section .container .social-media .github{
     justify-content: center;
 }
 
+section .container .social-media .github:hover{
+    
+}
+
+section .section-contact .social-media .github .cercle .adresse p{
+    font-size: 22px;
+}
+
 section .container .social-media .linkedin{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+section .container .social-media .linkedin:hover{
+    
+}
+
+section .section-contact .social-media .linkedin .cercle .adresse p{
+    font-size: 22px;
+}
+
+/* footer */
+footer{
+    margin-top: 5em;
+    background-color: #E07800;
+}
+
+footer .container .footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+}
+
+footer .container .footer .copyright p{
+    font-size: 20px;
+}
+
+footer .container .footer .icons-copyright ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer .container .footer .icons-copyright ul li img{
+    height: 50px;
+    width: 50px;
+}
+
+footer .container .footer .icons-copyright ul li .up{
+    height: 45px;
+    width: 45px;
 }
 
 
@@ -581,10 +651,6 @@ section .container .social-media .linkedin{
         padding: 20px 60px 20px 20px;
     }
 
-    section .section-projet .portfolio .box2 .projet .img-title{
-        
-    }
-
     section .section-projet .portfolio .box2 .projet .img-title img{
         width: 200px;
     }
@@ -672,7 +738,74 @@ section .container .social-media .linkedin{
         font-size: 15px;
     }
 
+    section .section-contact .container .contact-form .form .name{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 1fr;
+    }
+
+    section .section-contact .container .contact-form .form .name label{
+        font-size: 15px;
+    }
+
+    section .section-contact .container .contact-form .form .name input{
+        grid-column: span 2/4;
+    }
+
+    section .section-contact .container .contact-form .form .email{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 1fr;
+    }
+
+    section .section-contact .container .contact-form .form .email label{
+        font-size: 15px;
+    }
+
+    section .section-contact .container .contact-form .form .email input{
+        grid-column: span 2/4;
+    }
+
+    section .section-contact .container .contact-form .form .message{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 1fr;
+    }
+
+    section .section-contact .container .contact-form .message textarea{
+        grid-column: span 2/4;
+    }
+    
+    section .section-contact .container .contact-form .form .message label{
+        font-size: 15px;
+    }
+
+    section .section-contact .social-media .cercle{
+        border-radius: 35px;
+        width: 60px;
+        height: 60px;
+    }
+
+    section .section-contact .social-media .phone .cercle .number p{
+        font-size: 12px;
+    } 
+
+    section .section-contact .social-media .facebook .cercle .adresse p{
+        font-size: 12px;
+    }
+
+    section .section-contact .social-media .github .cercle .adresse p{
+        font-size: 12px;
+    }
+
+    section .section-contact .social-media .linkedin .cercle .adresse p{
+        font-size: 12px;
+    }
 }
+
+
+
+
 
 
 

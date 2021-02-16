@@ -123,7 +123,7 @@ section .section-projet .portfolio .box1 .projet{
 section .section-projet .portfolio .box1 .projet{
     display: flex;
     align-items: center;
-    padding: 40px 40px 40px 85px;
+    padding: 40px 40px 40px 115px;
 }
 
 section .section-projet .portfolio .box1 .projet .img-title{
@@ -159,7 +159,7 @@ section .section-projet .portfolio .box2 .projet{
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
-    padding: 40px 80px 40px 40px;
+    padding: 40px 115px 40px 40px;
 }
 
 section .section-projet .portfolio .box2 .projet .img-title{
@@ -183,7 +183,7 @@ section .section-projet .portfolio .box2 .projet  p{
 }
 
 section .section-about{
-    margin-bottom: 5em;
+    margin-bottom: 4em;
 }
 
 section .section-about h2{
@@ -206,6 +206,150 @@ section .section-about .text p{
     font-size: 25px;
     padding: 20px;
 }
+
+section .section-competences .container h2{
+    color: #E07800;
+    font-size: 50px;
+    text-decoration: underline  #E07800;
+    margin-bottom: 1em;
+}
+
+section .section-competences .container .icon-competences{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+section .section-competences .container .html{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section .section-competences .container .html .icon-html{
+    border: 3px solid #E07800;
+    border-radius: 105px;
+    text-align: center;
+    grid-area: 1/1/2/2;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+section .section-competences .container .html .text-html{
+    border-radius: 30px;
+    background-color: #E07800;
+    font-size: 30px;
+    padding: 12px 60px;
+}
+
+section .section-competences .container .html .text-html:hover{
+    color: white;
+}
+
+section .section-competences .container .css{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section .section-competences .container .css .icon-css{
+    border: 3px solid #E07800;
+    border-radius: 105px;
+    text-align: center;
+    grid-area: 1/2/3/2;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+section .section-competences .container .css .text-css{
+    border-radius: 30px;
+    background-color: #E07800;
+    font-size: 30px;
+    padding: 12px 70px;
+}
+
+section .section-competences .container .css .text-css:hover{
+    color: white;
+}
+
+section .section-competences .container .balsamiq{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section .section-competences .container .balsamiq .icon-balsamiq{
+    border: 3px solid #E07800;
+    border-radius: 105px;
+    text-align: center;
+    grid-area: 1/3/2/4;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+section .section-competences .container .balsamiq .text-balsamiq{
+    border-radius: 30px;
+    background-color: #E07800;
+    font-size: 30px;
+    padding: 12px 35px;
+}
+
+section .section-competences .container .balsamiq .text-balsamiq:hover{
+    color: white;
+}
+
+section .section-competences .container .figma{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section .section-competences .container .figma .icon-figma{
+    border: 3px solid #E07800;
+    border-radius: 105px;
+    text-align: center;
+    grid-area: 1/4/2/5;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+section .section-competences .container .figma .text-figma{
+    border-radius: 30px;
+    background-color: #E07800;
+    font-size: 30px;
+    padding: 12px 60px;
+}
+
+section .section-competences .container .figma .text-figma:hover{
+    color: white;
+}
+
+
+
+
 
 
 
@@ -302,7 +446,7 @@ section .section-about .text p{
     section .section-projet .portfolio .box2 .projet{
         padding: 20px 60px 20px 20px;
     }
-img
+
     section .section-projet .portfolio .box2 .projet .img-title{
         
     }
@@ -318,6 +462,14 @@ img
     section .section-projet .portfolio .box2 .projet p{
         font-size: 13px;
         width: 85%;
+    }
+
+    section .section-about .container h2{
+        font-size: 25px;
+    }
+
+    section .section-about .container .text p{
+        font-size: 15px;
     }
 }
 
@@ -373,9 +525,19 @@ img
 
     header .hero-header .button input{
         font-size: 10px;
-        padding: 8px 35px;
+        padding: 8px 45px;
         width: 100%;
         margin-top: 2em;
+    }
+
+    section {
+        margin: auto;
+    }
+
+    section .section-projet .portfolio h2{
+        font-size: 15px;
+        display: flex;
+        justify-content: center;
     }
 }
 

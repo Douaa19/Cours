@@ -713,7 +713,7 @@ footer .container .footer .icons-copyright ul li .up{
     }
 
     section .section-competences .container .html .icon-html{
-        border-radius: 50;
+        border-radius: 50px;
         width: 100px;
         height: 100px;
         margin-bottom: 15px;
@@ -966,7 +966,330 @@ footer .container .footer .icons-copyright ul li .up{
         padding: 1.5em 0 1em 0;
         margin: auto;
     }
+
+    section .section-projet .portfolio .boxs{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 85%;
+        margin: auto;
+    } 
+
+    section .section-projet .portfolio .boxs .box1{
+        width: 85%;
+        height: fit-content;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    }
+
+    section .section-projet .portfolio .boxs .box1 .projet{
+        border-radius: 30px;
+        margin: 0;
+        padding: 10px;
+        border-radius: 10px;
+    }
+
+    section .section-projet .portfolio .box1 .projet .img-title{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    section .section-projet .portfolio .box1 .projet .img-title img{
+        width:100px;
+        border-radius: 8px;
+    }
+
+    section .section-projet .portfolio .box1 .projet .img-title h3{
+        font-size: 15px;
+    }
+
+    section .section-projet .portfolio .box1 .projet p{
+        font-size: 10px;
+        grid-area: 2/2/3/3;
+    }
+
+    section .section-projet .portfolio .boxs .box2{
+        width: 85%;
+        height: fit-content;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    }
+
+    section .section-projet .portfolio .boxs .box2 .projet{
+        border-radius: 30px;
+        margin: 0;
+        padding: 10px;
+        border-radius: 10px;
+    }
+
+    section .section-projet .portfolio .box2 .projet .img-title{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    section .section-projet .portfolio .box2 .projet .img-title img{
+        width:100px;
+        border-radius: 8px;
+    }
+
+    section .section-projet .portfolio .box2 .projet .img-title h3{
+        font-size: 15px;
+    }
+
+    section .section-projet .portfolio .box2 .projet p{
+        font-size: 10px;
+    }
+
+    section .section-about{
+        margin: 1em 0;
+    }
+
+    section .section-about h2{
+        text-align: center;
+        font-size: 15px;
+        padding: 1.5em 0 1em 0;
+        margin: auto;
+    }
+
+    section .section-about .container .text{
+        padding-bottom: 3px;
+        border-bottom: 2px solid #E07800;
+    }
+
+    section .section-about .container .text p{
+        font-size: 10px;
+    }
+
+
+    section .section-competences .container h2{
+        text-align: center;
+        font-size: 15px;
+        padding: 1.5em 0 1em 0;
+        margin: auto;
+    }
+
+    section .section-competences .container .html .text-html{
+        font-size: 10px;
+        padding: 3px 10px;
+    }
+
+    section .section-competences .container .css .text-css{
+        font-size: 10px;
+        padding: 3px 10px;
+    }
+
+    section .section-competences .container .balsamiq .text-balsamiq{
+        font-size: 10px;
+        padding: 3px 10px;
+    }
+
+    section .section-competences .container .figma .text-figma{
+        font-size: 10px;
+        padding: 3px 10px;
+    }
+
+    section .section-competences .container .icon-competences{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2,1fr);
+        grid-row-gap: 15px;
+        width: 70%;
+        margin: auto;
+    }
+
+    section .section-competences .container .html .icon-html{
+        border: 2px solid #E07800;
+        border-radius: 50px;
+        width: 70px;
+        height: 70px;
+        margin-bottom: 5px;
+        font-size: 8px;
+    }
+
+    section .section-competences .container .css .icon-css{
+        border: 2px solid #E07800;
+        border-radius: 50px;
+        width: 70px;
+        height: 70px;
+        margin-bottom: 5px;
+        font-size: 8px;
+    }
+
+    section .section-competences .container .balsamiq .icon-balsamiq{
+        border: 2px solid #E07800;
+        border-radius: 50px;
+        width: 70px;
+        height: 70px;
+        margin-bottom: 5px;
+        font-size: 8px;
+    }
+
+    section .section-competences .container .figma .icon-figma{
+        border: 2px solid #E07800;
+        border-radius: 50px;
+        width: 70px;
+        height: 70px;
+        margin-bottom: 5px;
+        font-size: 8px;
+    }
+
+    section .section-contact .container h2{
+        text-align: center;
+        font-size: 15px;
+        padding: 1.5em 0 1em 0;
+        margin: auto;
+    }
+
+    section .section-contact .container .contact-form{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: max-content;
+        margin-bottom: -20px;
+    }
+
+    section .section-contact .container .titl-message{
+        margin-bottom: 0;
+    }
+
+    section .section-contact .container .titl-message p{
+        font-size: 12px;
+        text-align: center;
+        margin: 0 0 15px 0px;
+    }
+
+    section .section-contact .container .contact-form .form{
+        border: 2px solid #E07800;
+        border-radius: 10px;
+    }
+
+    section .section-contact .container .contact-form .form .name{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    section .section-contact .container .contact-form .form .name label{
+        font-size: 10px;
+        padding: 0 0 10px 5px;
+    }
+
+    section .section-contact .container .contact-form .form .name input{
+        border: 1px solid #E07800;
+        border-radius: 20px;
+        width: 90%;
+    }
+
+    section .section-contact .container .contact-form .form .email{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    section .section-contact .container .contact-form .form .email label{
+        font-size: 10px;
+        padding: 0 0 10px 5px;
+    }
+
+    section .section-contact .container .contact-form .form .email input{
+        border: 1px solid #E07800;
+        border-radius: 20px;
+        width: 90%;
+    }
+
+    section .section-contact .container .contact-form .form .message{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    section .section-contact .container .contact-form .form .message label{
+        font-size: 10px;
+        padding: 0 0 10px 5px;
+    }
+
+    section .section-contact .container .contact-form .form .message textarea{
+        border: 1px solid #E07800;
+        border-radius: 20px;
+        width: 90%;
+    }
+
+    section .container .social-media{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    section .container .social-media .cercle{
+        width: 100%;
+        height: auto;
+        border: 2px solid #E07800;
+        border-radius: 20px;
+        margin: 5px 0;
+    }
+
+    section .section-contact .social-media .phone .cercle .number p{
+        font-size: 10px;
+        text-align: center;
+        padding: 5px 80px;
+    }
+
+    section .section-contact .social-media .facebook .cercle .adresse p{
+        font-size: 10px;
+        text-align: center;
+        padding: 5px 72px;
+    }
+
+    section .section-contact .social-media .github .cercle .adresse p{
+        font-size: 10px;
+        text-align: center;
+        padding: 5px 80px;
+    }
+
+    section .section-contact .social-media .linkedin .cercle .adresse p{
+        font-size: 10px;
+        text-align: center;
+        padding: 5px 75px;
+    }
+
+    footer{
+        margin-top: 1.5em;
+    }
+
+    footer .container .footer{
+        padding: 20px 0;
+    }
+
+    footer .container .footer .copyright p{
+        font-size: 10px;
+    }
+
+    footer .container .footer .icons-copyright ul li img{
+        height: 20px;
+        width: 20px;
+        margin: 0 3px;
+    }
+
+    footer .container .footer .icons-copyright ul li .up{
+        height: 18px;
+        width: 18px;
+        margin: 0 4px;
+    }
+
     
+
+
+
+
+
+
+
+
+
+
 
     
 

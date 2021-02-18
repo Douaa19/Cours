@@ -1,3 +1,6 @@
+*{
+    scroll-behavior: smooth;
+}
 .container{
     width: 85%;
     margin: auto;
@@ -96,73 +99,73 @@ header .hero-header .button input:hover{
 }
 
 /* Section portfolio */
-section .portfolio{
+main .portfolio{
     margin-top: 5em;
 }
 
-section .portfolio h2{
+main .portfolio h2{
     color: #E07800;
     font-size: 50px;
     text-decoration: underline  #E07800;
     margin-bottom: 1em;
 }
 
-section .portfolio h2:hover{
+main .portfolio h2:hover{
     text-decoration: underline black;
     color: black;
 }
 
-section .section-projet .boxs{
+main .section-projet .boxs{
     display: flex;
     flex-direction: column;
     
 }
 
-section .section-projet .portfolio .box1{
+main .section-projet .portfolio .box1{
     display: grid;
     grid-template-columns: 60% 1fr;
     margin: 15px 0;
 }
 
-section .section-projet .portfolio .box1 .projet{
+main .section-projet .portfolio .box1 .projet{
     background-color: #E07800;
     border-radius: 0 30px 30px 0;
 }
 
-section .section-projet .portfolio .box1 .projet{
+main .section-projet .portfolio .box1 .projet{
     display: flex;
     align-items: center;
     padding: 40px 40px 40px 115px;
 }
 
-section .section-projet .portfolio .box1 .projet .img-title{
+main .section-projet .portfolio .box1 .projet .img-title{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-section .section-projet .portfolio .box1 .projet .img-title img{
-    width: 345px;
-    height: 300px;
+main .section-projet .portfolio .box1 .projet .img-title img{
+    width: 295px;
+    height: 250px;
     border-radius: 20px;
 }
 
-section .section-projet .portfolio .box1 .projet .img-title h3{
-    font-size: 30px;
+main .section-projet .portfolio .box1 .projet .img-title h3{
+    font-size: 28px;
     margin-top: 15px;
 }
 
-section .section-projet .portfolio .box1 .projet p{
-    font-size: 25px;
+main .section-projet .portfolio .box1 .projet p{
+    font-size: 20px;
     margin-left: 15px;
 }
 
-section .section-projet .portfolio .box2{
+main .section-projet .portfolio .box2{
     display: grid;
     grid-template-columns: 1fr 60%;
 }
 
-section .section-projet .portfolio .box2 .projet{
+main .section-projet .portfolio .box2 .projet{
     border-radius: 30px 0 0 30px;
     background-color: #E07800;
     display: grid;
@@ -173,71 +176,71 @@ section .section-projet .portfolio .box2 .projet{
     padding: 40px 115px 40px 40px;
 }
 
-section .section-projet .portfolio .box2 .projet .img-title{
+main .section-projet .portfolio .box2 .projet .img-title{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-section .section-projet .portfolio .box2 .projet .img-title img{
-    width: 345px;
-    height: 300px;
+main .section-projet .portfolio .box2 .projet .img-title img{
+    width: 295px;
+    height: 250px;
     border-radius: 20px;
 }
 
-section .section-projet .portfolio .box2 .projet .img-title h3{
-    font-size: 30px;
+main .section-projet .portfolio .box2 .projet .img-title h3{
+    font-size: 28px;
     margin-top: 15px;
 }
 
-section .section-projet .portfolio .box2 .projet  p{
-    font-size: 25px;
+main .section-projet .portfolio .box2 .projet  p{
+    font-size: 20px;
     margin-right: 15px;
 }
 
-section .section-about{
+main .section-about{
     margin-bottom: 4em;
     margin-top: 5em;
 }
 
-section .section-about h2{
+main .section-about h2{
     color: #E07800;
     font-size: 50px;
     text-decoration: underline  #E07800;
     margin-bottom: 1em;
 }
 
-section .section-about h2:hover{
+main .section-about h2:hover{
     color: black;
     text-decoration: underline  black;
 }
 
-section .section-about .text{
+main .section-about .text{
     width: 80%;
     margin: auto;
     padding-bottom: 5px;
     border-bottom: 5px solid #E07800;
 }
 
-section .section-about .text p{
+main .section-about .text p{
     background-color: #E07800;
     font-size: 25px;
     padding: 20px;
 }
 
-section .section-competences .container h2{
+main .section-competences .container h2{
     color: #E07800;
     font-size: 50px;
     text-decoration: underline  #E07800;
     margin-bottom: 1em;
 }
 
-section .section-competences .container h2:hover{
+main .section-competences .container h2:hover{
     color: black;
     text-decoration: underline  black;
 }
 
-section .section-competences .container .icon-competences{
+main .section-competences .container .icon-competences{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: 1fr;
@@ -245,13 +248,13 @@ section .section-competences .container .icon-competences{
     grid-row-gap: 0px;
 }
 
-section .section-competences .container .html{
+main .section-competences .container .html{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-section .section-competences .container .html .icon-html{
+main .section-competences .container .html .icon-html{
     border: 3px solid #E07800;
     border-radius: 105px;
     text-align: center;
@@ -264,24 +267,24 @@ section .section-competences .container .html .icon-html{
     margin-bottom: 25px;
 }
 
-section .section-competences .container .html .text-html{
+main .section-competences .container .html .text-html{
     border-radius: 30px;
     background-color: #E07800;
-    font-size: 30px;
+    font-size: 25px;
     padding: 12px 60px;
 }
 
-section .section-competences .container .html .text-html:hover{
+main .section-competences .container .html .text-html:hover{
     color: white;
 }
 
-section .section-competences .container .css{
+main .section-competences .container .css{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-section .section-competences .container .css .icon-css{
+main .section-competences .container .css .icon-css{
     border: 3px solid #E07800;
     border-radius: 105px;
     text-align: center;
@@ -294,29 +297,29 @@ section .section-competences .container .css .icon-css{
     margin-bottom: 25px;
 }
 
-section .section-competences .container .css .text-css{
+main .section-competences .container .css .text-css{
     border-radius: 30px;
     background-color: #E07800;
-    font-size: 30px;
+    font-size: 25px;
     padding: 12px 70px;
 }
 
-section .section-competences .container .css .text-css:hover{
+main .section-competences .container .css .text-css:hover{
     color: white;
 }
 
-section .section-competences .container .balsamiq{
+main .section-competences .container .balsamiq{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-section .section-competences .container .balsamiq .icon-balsamiq img{
+main .section-competences .container .balsamiq .icon-balsamiq img{
     width: 60%;
     height: 60%;
 }
 
-section .section-competences .container .balsamiq .icon-balsamiq{
+main .section-competences .container .balsamiq .icon-balsamiq{
     border: 3px solid #E07800;
     border-radius: 105px;
     text-align: center;
@@ -329,29 +332,29 @@ section .section-competences .container .balsamiq .icon-balsamiq{
     margin-bottom: 25px;
 }
 
-section .section-competences .container .balsamiq .text-balsamiq{
+main .section-competences .container .balsamiq .text-balsamiq{
     border-radius: 30px;
     background-color: #E07800;
-    font-size: 30px;
+    font-size: 25px;
     padding: 12px 35px;
 }
 
-section .section-competences .container .balsamiq .text-balsamiq:hover{
+main .section-competences .container .balsamiq .text-balsamiq:hover{
     color: white;
 }
 
-section .section-competences .container .figma{
+main .section-competences .container .figma{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-section .section-competences .container .figma .icon-figma img{
+main .section-competences .container .figma .icon-figma img{
     width: 38%;
     height: 57%;
 }
 
-section .section-competences .container .figma .icon-figma{
+main .section-competences .container .figma .icon-figma{
     border: 3px solid #E07800;
     border-radius: 105px;
     text-align: center;
@@ -365,34 +368,34 @@ section .section-competences .container .figma .icon-figma{
     margin-bottom: 25px;
 }
 
-section .section-competences .container .figma .text-figma{
+main .section-competences .container .figma .text-figma{
     border-radius: 30px;
     background-color: #E07800;
-    font-size: 30px;
+    font-size: 25px;
     padding: 12px 60px;
 }
 
-section .section-competences .container .figma .text-figma:hover{
+main .section-competences .container .figma .text-figma:hover{
     color: white;
 }
 
-section .section-contact{
+main .section-contact{
     margin-top: 5em;
 }
 
-section .section-contact .container h2{
+main .section-contact .container h2{
     color: #E07800;
     font-size: 50px;
     text-decoration: underline  #E07800;
     margin-bottom: 1em;
 }
 
-section .section-contact .container h2:hover{
+main .section-contact .container h2:hover{
     color: black;
     text-decoration: underline  black;
 }
 
-section .section-contact .container .contact-form{
+main .section-contact .container .contact-form{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 1fr;
@@ -400,17 +403,17 @@ section .section-contact .container .contact-form{
     grid-row-gap: 0px;
 }
 
-section .section-contact .container .titl-message p{
+main .section-contact .container .titl-message p{
     font-size: 30px;
 }
 
-section .section-contact .container .contact-form .form{
+main .section-contact .container .contact-form .form{
     border: 3px solid #E07800;
     border-radius: 30px;
     margin-bottom: 40px;
 }
 
-section .section-contact .container .contact-form .name{
+main .section-contact .container .contact-form .name{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 1fr;
@@ -419,18 +422,18 @@ section .section-contact .container .contact-form .name{
     margin: 25px 20px 25px 25px;
 }
 
-section .section-contact .container .contact-form .name label{
+main .section-contact .container .contact-form .name label{
     font-size: 20px;
 }
 
-section .section-contact .container .contact-form .name input{
+main .section-contact .container .contact-form .name input{
     padding: 5px 5px 5px 10px;
     border: 2px solid #E07800;
     border-radius: 20px;
     outline: none;
 }
 
-section .section-contact .container .contact-form .email{
+main .section-contact .container .contact-form .email{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 1fr;
@@ -439,18 +442,18 @@ section .section-contact .container .contact-form .email{
     margin: 0px 20px 25px 25px;
 }
 
-section .section-contact .container .contact-form .email label{
+main .section-contact .container .contact-form .email label{
     font-size: 20px;
 }
 
-section .section-contact .container .contact-form .email input{
+main .section-contact .container .contact-form .email input{
     padding: 5px 5px 5px 10px;
     border: 2px solid #E07800;
     border-radius: 20px;
     outline: none;
 }
 
-section .section-contact .container .contact-form .message{
+main .section-contact .container .contact-form .message{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 1fr;
@@ -459,11 +462,11 @@ section .section-contact .container .contact-form .message{
     margin: 0px 20px 25px 25px;
 }
 
-section .section-contact .container .contact-form .message label{
+main .section-contact .container .contact-form .message label{
     font-size: 20px;
 }
 
-section .section-contact .container .contact-form .message textarea{
+main .section-contact .container .contact-form .message textarea{
     padding: 5px 5px 30px 10px;
     height: 120px;
     border: 2px solid #E07800;
@@ -471,7 +474,7 @@ section .section-contact .container .contact-form .message textarea{
     outline: none;
 }
 
-section .container .social-media{
+main .container .social-media{
     width: 90%;
     margin: auto;
     display: grid;
@@ -481,7 +484,7 @@ section .container .social-media{
     grid-row-gap: 0px;
 }
 
-section .container .social-media .cercle{
+main .container .social-media .cercle{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -492,7 +495,7 @@ section .container .social-media .cercle{
     height: 120px;
 }
 
-section .container .social-media .phone{
+main .container .social-media .phone{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -500,78 +503,78 @@ section .container .social-media .phone{
 }
 
 
-section .section-contact .social-media .phone .cercle .number p{
+main .section-contact .social-media .phone .cercle .number p{
     font-size: 22px;
     text-align: center;
 }
 
-section .section-contact .social-media .phone .cercle .number p:hover{
+main .section-contact .social-media .phone .cercle .number p:hover{
     display: none;
 }
 
-section .section-contact .social-media .phone .cercle .number .reponse p{
+main .section-contact .social-media .phone .cercle .number .reponse p{
     display: none;
 }
 
-section .section-contact .social-media .phone .cercle .number .reponse p:hover{
+main .section-contact .social-media .phone .cercle .number .reponse p:hover{
     color: black;
     font-size: 10px;
 }
 
-section .container .social-media .facebook{
+main .container .social-media .facebook{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
-section .section-contact .social-media .facebook .cercle .adresse p{
+main .section-contact .social-media .facebook .cercle .adresse p{
     font-size: 22px;
 }
 
-section .section-contact .social-media .facebook .cercle .adresse p:hover{
+main .section-contact .social-media .facebook .cercle .adresse p:hover{
     display: none;
 }
 
-section .section-contact .social-media .facebook .cercle .adresse .reponse p{
+main .section-contact .social-media .facebook .cercle .adresse .reponse p{
     display: none;
 }
 
-section .container .social-media .github{
+main .container .social-media .github{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
-section .section-contact .social-media .github .cercle .adresse p{
+main .section-contact .social-media .github .cercle .adresse p{
     font-size: 22px;
 }
 
-section .section-contact .social-media .github .cercle .adresse p:hover{
+main .section-contact .social-media .github .cercle .adresse p:hover{
     display: none;
 }
 
-section .section-contact .social-media .github .cercle .adresse .reponse p{
+main .section-contact .social-media .github .cercle .adresse .reponse p{
     display: none;
 }
 
-section .container .social-media .linkedin{
+main .container .social-media .linkedin{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
-section .section-contact .social-media .linkedin .cercle .adresse p{
+main .section-contact .social-media .linkedin .cercle .adresse p{
     font-size: 22px;
 }
 
-section .section-contact .social-media .linkedin .cercle .adresse p:hover{
+main .section-contact .social-media .linkedin .cercle .adresse p:hover{
     display: none;
 }
 
-section .section-contact .social-media .linkedin .cercle .adresse .reponse p{
+main .section-contact .social-media .linkedin .cercle .adresse .reponse p{
     display: none;
 }
 
@@ -677,57 +680,57 @@ footer .container .footer .icons-copyright ul li .up{
 
     /* Section portfolio */
 
-    section .section-projet .portfolio h2{
+    main .section-projet .portfolio h2{
         font-size: 25px;
     }
 
-    section .section-projet .portfolio .box1 .projet{
+    main .section-projet .portfolio .box1 .projet{
         padding: 20px 20px 20px 60px;
     }
 
-    section .section-projet .portfolio .box1 .projet .img-title img{
+    main .section-projet .portfolio .box1 .projet .img-title img{
         width: 150px;
         height: 120px;
         border-radius: 8px;
     }
 
-    section .section-projet .portfolio .box1 .projet .img-title h3{
+    main .section-projet .portfolio .box1 .projet .img-title h3{
         font-size: 15px;
     }
 
-    section .section-projet .portfolio .box1 .projet p{
+    main .section-projet .portfolio .box1 .projet p{
         font-size: 13px;
         width: 85%;
     }
 
-    section .section-projet .portfolio h2{
+    main .section-projet .portfolio h2{
         font-size: 25px;
     }
 
-    section .section-projet .portfolio .box2 .projet{
+    main .section-projet .portfolio .box2 .projet{
         padding: 20px 60px 20px 20px;
     }
 
-    section .section-projet .portfolio .box2 .projet .img-title img{
+    main .section-projet .portfolio .box2 .projet .img-title img{
         width: 150px;
         height: 120px;
         border-radius: 8px;
     }
 
-    section .section-projet .portfolio .box2 .projet .img-title h3{
+    main .section-projet .portfolio .box2 .projet .img-title h3{
         font-size: 15px;
     }
 
-    section .section-projet .portfolio .box2 .projet p{
+    main .section-projet .portfolio .box2 .projet p{
         font-size: 13px;
         width: 85%;
     }
 
-    section .section-about .container h2{
+    main .section-about .container h2{
         font-size: 25px;
     }
 
-    section .section-about .container .text p{
+    main .section-about .container .text p{
         font-size: 15px;
     }
 
@@ -736,138 +739,138 @@ footer .container .footer .icons-copyright ul li .up{
         font-size: 25px;
     }
 
-    section .section-competences .container .html .icon-html{
+    main .section-competences .container .html .icon-html{
         border-radius: 50px;
         width: 100px;
         height: 100px;
         margin-bottom: 15px;
     }
 
-    section .section-competences .container .html .text-html{
+    main .section-competences .container .html .text-html{
         font-size: 15px;
         border-radius: 150px;
         padding: 6px 30px;
     }
 
-    section .section-competences .container .css .icon-css{
+    main .section-competences .container .css .icon-css{
         border-radius: 50;
         width: 100px;
         height: 100px;
         margin-bottom: 15px;
     }
 
-    section .section-competences .container .css .text-css{
+    main .section-competences .container .css .text-css{
         font-size: 15px;
         border-radius: 150px;
         padding: 6px 35px;
     }
 
-    section .section-competences .container .balsamiq .icon-balsamiq{
+    main .section-competences .container .balsamiq .icon-balsamiq{
         border-radius: 50;
         width: 100px;
         height: 100px;
         margin-bottom: 15px;
     }
 
-    section .section-competences .container .balsamiq .text-balsamiq{
+    main .section-competences .container .balsamiq .text-balsamiq{
         font-size: 15px;
         border-radius: 150px;
         padding: 6px 19px;
     }
 
-    section .section-competences .container .figma .icon-figma{
+    main .section-competences .container .figma .icon-figma{
         border-radius: 50;
         width: 100px;
         height: 100px;
         margin-bottom: 15px;
     }
 
-    section .section-competences .container .figma .text-figma{
+    main .section-competences .container .figma .text-figma{
         font-size: 15px;
         border-radius: 150px;
         padding: 6px 30px;
     }
 
     /* Section-contact */
-    section .section-contact .container h2{
+    main .section-contact .container h2{
         font-size: 25px;
     }
 
-    section .section-contact .container .contact-form{
+    main .section-contact .container .contact-form{
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: 1fr;
     }
 
-    section .section-contact .container .contact-form .form{
+    main .section-contact .container .contact-form .form{
         grid-column: span 2/4;
     }
 
-    section .section-contact .container .contact-form .titl-message p{
+    main .section-contact .container .contact-form .titl-message p{
         font-size: 15px;
     }
 
-    section .section-contact .container .contact-form .form .name{
+    main .section-contact .container .contact-form .form .name{
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: 1fr;
     }
 
-    section .section-contact .container .contact-form .form .name label{
+    main .section-contact .container .contact-form .form .name label{
         font-size: 15px;
     }
 
-    section .section-contact .container .contact-form .form .name input{
+    main .section-contact .container .contact-form .form .name input{
         grid-column: span 2/4;
     }
 
-    section .section-contact .container .contact-form .form .email{
+    main .section-contact .container .contact-form .form .email{
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: 1fr;
     }
 
-    section .section-contact .container .contact-form .form .email label{
+    main .section-contact .container .contact-form .form .email label{
         font-size: 15px;
     }
 
-    section .section-contact .container .contact-form .form .email input{
+    main .section-contact .container .contact-form .form .email input{
         grid-column: span 2/4;
     }
 
-    section .section-contact .container .contact-form .form .message{
+    main .section-contact .container .contact-form .form .message{
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: 1fr;
     }
 
-    section .section-contact .container .contact-form .message textarea{
+    main .section-contact .container .contact-form .message textarea{
         grid-column: span 2/4;
     }
     
-    section .section-contact .container .contact-form .form .message label{
+    main .section-contact .container .contact-form .form .message label{
         font-size: 15px;
     }
 
-    section .section-contact .social-media .cercle{
+    main .section-contact .social-media .cercle{
         border-radius: 35px;
         width: 60px;
         height: 60px;
     }
 
-    section .section-contact .social-media .phone .cercle .number p{
+    main .section-contact .social-media .phone .cercle .number p{
         font-size: 12px;
     } 
 
-    section .section-contact .social-media .facebook .cercle .adresse p{
+    main .section-contact .social-media .facebook .cercle .adresse p{
         font-size: 12px;
     }
 
-    section .section-contact .social-media .github .cercle .adresse p{
+    main .section-contact .social-media .github .cercle .adresse p{
         font-size: 12px;
     }
 
-    section .section-contact .social-media .linkedin .cercle .adresse p{
+    main .section-contact .social-media .linkedin .cercle .adresse p{
         font-size: 12px;
     }
     
@@ -894,22 +897,22 @@ footer .container .footer .icons-copyright ul li .up{
         width: 25px;
     }
 
-    section .section-competences .container .balsamiq .icon-balsamiq img{
+    main .section-competences .container .balsamiq .icon-balsamiq img{
         width: 45%;
         height: 45%;
     }
 
-    section .section-competences .container .figma .icon-figma img{
+    main .section-competences .container .figma .icon-figma img{
         width: 28%;
         height: 47%;
     }
 
-    section .section-competences .container .html .icon-html img{
+    main .section-competences .container .html .icon-html img{
         width: 50%;
         height: 50%;
     }
 
-    section .section-competences .container .css .icon-css img{
+    main .section-competences .container .css .icon-css img{
         width: 50%;
         height: 50%;
     }
@@ -1008,18 +1011,18 @@ footer .container .footer .icons-copyright ul li .up{
 
 
 
-    section{
+    main{
         margin-top: -5em;
     }
 
-    section .section-projet .portfolio h2{
+    main .section-projet .portfolio h2{
         text-align: center;
         font-size: 15px;
         padding: 1.5em 0 1em 0;
         margin: auto;
     }
 
-    section .section-projet .portfolio .boxs{
+    main .section-projet .portfolio .boxs{
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -1027,7 +1030,7 @@ footer .container .footer .icons-copyright ul li .up{
         margin: auto;
     } 
 
-    section .section-projet .portfolio .boxs .box1{
+    main .section-projet .portfolio .boxs .box1{
         width: 85%;
         height: fit-content;
         display: grid;
@@ -1035,35 +1038,35 @@ footer .container .footer .icons-copyright ul li .up{
         grid-template-rows: 1fr;
     }
 
-    section .section-projet .portfolio .boxs .box1 .projet{
+    main .section-projet .portfolio .boxs .box1 .projet{
         border-radius: 30px;
         margin: 0;
         padding: 10px;
         border-radius: 10px;
     }
 
-    section .section-projet .portfolio .box1 .projet .img-title{
+    main .section-projet .portfolio .box1 .projet .img-title{
         display: flex;
         flex-direction: column;
         align-items: center;
     }
 
-    section .section-projet .portfolio .box1 .projet .img-title img{
+    main .section-projet .portfolio .box1 .projet .img-title img{
         width: 100px;
         height: 90px;
         border-radius: 8px;
     }
 
-    section .section-projet .portfolio .box1 .projet .img-title h3{
+    main .section-projet .portfolio .box1 .projet .img-title h3{
         font-size: 10px;
     }
 
-    section .section-projet .portfolio .box1 .projet p{
+    main .section-projet .portfolio .box1 .projet p{
         font-size: 10px;
         grid-area: 2/2/3/3;
     }
 
-    section .section-projet .portfolio .boxs .box2{
+    main .section-projet .portfolio .boxs .box2{
         width: 85%;
         height: fit-content;
         display: grid;
@@ -1071,85 +1074,85 @@ footer .container .footer .icons-copyright ul li .up{
         grid-template-rows: 1fr;
     }
 
-    section .section-projet .portfolio .boxs .box2 .projet{
+    main .section-projet .portfolio .boxs .box2 .projet{
         border-radius: 30px;
         margin: 0;
         padding: 10px;
         border-radius: 10px;
     }
 
-    section .section-projet .portfolio .box2 .projet .img-title{
+    main .section-projet .portfolio .box2 .projet .img-title{
         display: flex;
         flex-direction: column;
         align-items: center;
     }
 
-    section .section-projet .portfolio .box2 .projet .img-title img{
+    main .section-projet .portfolio .box2 .projet .img-title img{
         width: 100px;
         height: 90px;
         border-radius: 8px;
     }
 
-    section .section-projet .portfolio .box2 .projet .img-title h3{
+    main .section-projet .portfolio .box2 .projet .img-title h3{
         font-size: 10px;
     }
 
-    section .section-projet .portfolio .box2 .projet p{
+    main .section-projet .portfolio .box2 .projet p{
         font-size: 10px;
     }
 
-    section .section-about{
+    main .section-about{
         margin: 1em 0;
     }
 
-    section .section-about h2{
+    main .section-about h2{
         text-align: center;
         font-size: 15px;
         padding: 1.5em 0 1em 0;
         margin: auto;
     }
 
-    section .section-about .container .text{
+    main .section-about .container .text{
         padding-bottom: 3px;
         border-bottom: 2px solid #E07800;
     }
 
-    section .section-about .container .text p{
+    main .section-about .container .text p{
         font-size: 10px;
     }
 
-    section .section-competences{
+    main .section-competences{
         margin-top: 2em;
     }
 
-    section .section-competences .container h2{
+    main .section-competences .container h2{
         text-align: center;
         font-size: 15px;
         padding: 0em 0 1em 0;
         margin: auto;
     }
 
-    section .section-competences .container .html .text-html{
+    main .section-competences .container .html .text-html{
         font-size: 10px;
         padding: 3px 10px;
     }
 
-    section .section-competences .container .css .text-css{
+    main .section-competences .container .css .text-css{
         font-size: 10px;
         padding: 3px 10px;
     }
 
-    section .section-competences .container .balsamiq .text-balsamiq{
+    main .section-competences .container .balsamiq .text-balsamiq{
         font-size: 10px;
         padding: 3px 10px;
     }
 
-    section .section-competences .container .figma .text-figma{
+    main .section-competences .container .figma .text-figma{
         font-size: 10px;
         padding: 3px 10px;
     }
 
-    section .section-competences .container .icon-competences{
+    main .section-competences .container .icon-competences{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(2,1fr);
@@ -1158,7 +1161,7 @@ footer .container .footer .icons-copyright ul li .up{
         margin: auto;
     }
 
-    section .section-competences .container .html .icon-html{
+    main .section-competences .container .html .icon-html{
         border: 2px solid #E07800;
         border-radius: 50px;
         width: 70px;
@@ -1167,7 +1170,7 @@ footer .container .footer .icons-copyright ul li .up{
         font-size: 8px;
     }
 
-    section .section-competences .container .css .icon-css{
+    main .section-competences .container .css .icon-css{
         border: 2px solid #E07800;
         border-radius: 50px;
         width: 70px;
@@ -1176,7 +1179,7 @@ footer .container .footer .icons-copyright ul li .up{
         font-size: 8px;
     }
 
-    section .section-competences .container .balsamiq .icon-balsamiq{
+    main .section-competences .container .balsamiq .icon-balsamiq{
         border: 2px solid #E07800;
         border-radius: 50px;
         width: 70px;
@@ -1185,7 +1188,7 @@ footer .container .footer .icons-copyright ul li .up{
         font-size: 8px;
     }
 
-    section .section-competences .container .figma .icon-figma{
+    main .section-competences .container .figma .icon-figma{
         border: 2px solid #E07800;
         border-radius: 50px;
         width: 70px;
@@ -1194,100 +1197,100 @@ footer .container .footer .icons-copyright ul li .up{
         font-size: 8px;
     }
 
-    section .section-contact{
+    main .section-contact{
         margin-top: 2em;
     }
 
-    section .section-contact .container h2{
+    main .section-contact .container h2{
         text-align: center;
         font-size: 15px;
         padding: 0em 0 1em 0;
         margin: auto;
     }
 
-    section .section-contact .container .contact-form{
+    main .section-contact .container .contact-form{
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: max-content;
         margin-bottom: -20px;
     }
 
-    section .section-contact .container .titl-message{
+    main .section-contact .container .titl-message{
         margin-bottom: 0;
     }
 
-    section .section-contact .container .titl-message p{
+    main .section-contact .container .titl-message p{
         font-size: 12px;
         text-align: center;
         margin: 0 0 15px 0px;
     }
 
-    section .section-contact .container .contact-form .form{
+    main .section-contact .container .contact-form .form{
         border: 2px solid #E07800;
         border-radius: 10px;
     }
 
-    section .section-contact .container .contact-form .form .name{
+    main .section-contact .container .contact-form .form .name{
         display: flex;
         flex-direction: column;
         align-items: flex-start;
     }
 
-    section .section-contact .container .contact-form .form .name label{
+    main .section-contact .container .contact-form .form .name label{
         font-size: 10px;
         padding: 0 0 10px 5px;
     }
 
-    section .section-contact .container .contact-form .form .name input{
+    main .section-contact .container .contact-form .form .name input{
         border: 1px solid #E07800;
         font-size: 10px;
         border-radius: 20px;
         width: 90%;
     }
 
-    section .section-contact .container .contact-form .form .email{
+    main .section-contact .container .contact-form .form .email{
         display: flex;
         flex-direction: column;
         align-items: flex-start;
     }
 
-    section .section-contact .container .contact-form .form .email label{
+    main .section-contact .container .contact-form .form .email label{
         font-size: 10px;
         padding: 0 0 10px 5px;
     }
 
-    section .section-contact .container .contact-form .form .email input{
+    main .section-contact .container .contact-form .form .email input{
         border: 1px solid #E07800;
         border-radius: 20px;
         width: 90%;
         font-size: 10px;
     }
 
-    section .section-contact .container .contact-form .form .message{
+    main .section-contact .container .contact-form .form .message{
         display: flex;
         flex-direction: column;
         align-items: flex-start;
     }
 
-    section .section-contact .container .contact-form .form .message label{
+    main .section-contact .container .contact-form .form .message label{
         font-size: 10px;
         padding: 0 0 10px 5px;
     }
 
-    section .section-contact .container .contact-form .form .message textarea{
+    main .section-contact .container .contact-form .form .message textarea{
         border: 1px solid #E07800;
         font-size: 10px;
         border-radius: 20px;
         width: 90%;
     }
 
-    section .container .social-media{
+    main .container .social-media{
         display: flex;
         flex-direction: column;
         align-items: center;
     }
 
-    section .container .social-media .cercle{
+    main .container .social-media .cercle{
         width: 100%;
         height: auto;
         border: 2px solid #E07800;
@@ -1295,25 +1298,25 @@ footer .container .footer .icons-copyright ul li .up{
         margin: 5px 0;
     }
 
-    section .section-contact .social-media .phone .cercle .number p{
+    main .section-contact .social-media .phone .cercle .number p{
         font-size: 10px;
         text-align: center;
         padding: 5px 80px;
     }
 
-    section .section-contact .social-media .facebook .cercle .adresse p{
+    main .section-contact .social-media .facebook .cercle .adresse p{
         font-size: 10px;
         text-align: center;
         padding: 5px 72px;
     }
 
-    section .section-contact .social-media .github .cercle .adresse p{
+    main .section-contact .social-media .github .cercle .adresse p{
         font-size: 10px;
         text-align: center;
         padding: 5px 80px;
     }
 
-    section .section-contact .social-media .linkedin .cercle .adresse p{
+    main .section-contact .social-media .linkedin .cercle .adresse p{
         font-size: 10px;
         text-align: center;
         padding: 5px 75px;
@@ -1343,25 +1346,43 @@ footer .container .footer .icons-copyright ul li .up{
         margin: 0 4px;
     }
 
-    section .section-competences .container .balsamiq .icon-balsamiq img{
+    main .section-competences .container .balsamiq .icon-balsamiq img{
         width: 50%;
         height: 50%;
     }
 
-    section .section-competences .container .figma .icon-figma img{
+    main .section-competences .container .figma .icon-figma img{
         width: 40%;
         height: 50%;
     }
 
-    section .section-competences .container .html .icon-html img{
+    main .section-competences .container .html .icon-html img{
         width: 55%;
         height: 55%;
     }
 
-    section .section-competences .container .css .icon-css img{
+    main .section-competences .container .css .icon-css img{
         width: 55%;
         height: 55%;
     }
+
+    /* header .container .nav-logo .nav li{
+        float: left;
+    }
+
+    header .container .nav-logo .nav li a{
+        padding: 0;
+    }
+
+    header .container .nav-logo .nav{
+        clear: none;
+        float: right;
+        max-height: none;
+    }
+
+    header .container .nav-logo .nav .menu-icon{
+        display: none;
+    } */
 
 
     

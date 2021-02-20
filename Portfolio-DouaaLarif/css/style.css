@@ -34,6 +34,28 @@ header .nav-logo .logo h2{
     color: #FFFFFF;
 }
 
+/* humberger */
+header .menu-btn{
+    display: none;
+}
+
+header .nav-logo .nav .menu-btn:checked ~ ul{
+    max-height: 240px;
+}
+
+header .nav-logo .nav .menu-btn:checked ~ .menu-icon .navicon{
+    background: transparent;
+} 
+
+header .nav-logo .nav .menu-btn:checked ~ .menu-icon .navicon::after{
+    transform: rotate(45deg);
+}
+
+header .nav-logo .nav .menu-btn:checked ~ .menu-icon:not(.steps) .navicon::before,
+header .nav-logo .nav .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after{
+    top: 0;
+}
+
 header .nav-logo .nav{
     width: 50%;
     margin-top: 3em;
@@ -42,6 +64,7 @@ header .nav-logo .nav{
 header .nav-logo .nav ul{
     display: flex;
     justify-content: space-around;
+    cursor: pointer;
 }
 
 header .nav-logo .nav ul li a{
@@ -90,6 +113,7 @@ header .hero-header .button input{
     background-color: #E07800;
     color: #FFFFFF;
     outline: none;
+    cursor: pointer;
 }
 
 header .hero-header .button input:hover{
@@ -977,6 +1001,24 @@ footer .container .footer .icons-copyright ul li .up{
         display: none;
     }
 
+    header .nav-logo .nav ul li{
+        float: left;
+    }
+
+    header .nav-logo .nav ul li a{
+        padding: 20px 30px;
+    }
+
+    header .nav-logo .nav ul{
+        clear: none;
+        float: right;
+        max-height: none;
+    }
+
+    header .nav-logo .nav .menu-icon{
+        display: none;
+    }
+
     header .hero-header{
         margin-top: 0;
     }
@@ -1365,24 +1407,6 @@ footer .container .footer .icons-copyright ul li .up{
         width: 55%;
         height: 55%;
     }
-
-    /* header .container .nav-logo .nav li{
-        float: left;
-    }
-
-    header .container .nav-logo .nav li a{
-        padding: 0;
-    }
-
-    header .container .nav-logo .nav{
-        clear: none;
-        float: right;
-        max-height: none;
-    }
-
-    header .container .nav-logo .nav .menu-icon{
-        display: none;
-    } */
 
 
     

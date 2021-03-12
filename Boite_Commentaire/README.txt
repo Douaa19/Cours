@@ -1,1 +1,1 @@
-Améliorer une application boîte à commentaire.
+Améliorer une application mini boîte à commentaire.

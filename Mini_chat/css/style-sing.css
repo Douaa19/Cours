@@ -1,0 +1,82 @@
+body {
+    font-family: 'arial';
+    color:rgb(255, 255, 255);
+    font-size: 15px;
+    line-height: 1.5em;
+    background:#54ABCC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+    width: 60%;
+    height: 1vh;
+    margin: auto;
+}
+
+.sing-up {
+    width: 300px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    text-align: center;
+    border: solid 1px #4BC4F2;
+    border-radius: 20px;
+}
+
+.sing-up h1 {
+    font-family: sans-serif;
+    color: #6B778A;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.sing-up input[type="text"],
+.sing-up input[type="password"], 
+.sing-up input[type="email"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #4BC4F2;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    border-radius: 24px;
+    transition: 0.25s;
+}
+
+.sing-up input[type="email"]:focus,
+.sing-up input[type="password"]:focus,
+.sing-up input[type="text"]:focus {
+    width: 250px;
+    border-color: #6B778A;
+}
+
+.sing-up input[type="submit"] {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #3fbef0;
+    padding: 14px 40px;
+    outline: none;
+    color: #6B778A;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+.sing-up input[type="submit"]:hover {
+    background: #3fbef0;
+    color: white;
+}
+
+
+

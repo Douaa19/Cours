@@ -1,0 +1,78 @@
+/* Style login page */
+
+body {
+    background-color: #54ABCC;
+}
+
+.login {
+    width: 300px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    text-align: center;
+    border: solid 1px #4BC4F2;
+    border-radius: 20px;
+}
+
+.login h1 {
+    font-family: sans-serif;
+    color: #6B778A;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.login input[type="email"],
+.login input[type="password"] {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #4BC4F2;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    border-radius: 24px;
+    transition: 0.25s;
+}
+
+.login input[type="email"]:focus,
+.login input[type="password"]:focus {
+    width: 250px;
+    border-color: #6B778A;
+}
+
+.login input[type="submit"] {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #3fbef0;
+    padding: 14px 40px;
+    outline: none;
+    color: #6B778A;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+.login input[type="submit"]:hover {
+    background: #3fbef0;
+    color: white;
+}
+
+.login .sing-up {
+    text-decoration: none;
+    color: #54828A;
+    font-family: sans-serif;
+    font-size: 13px;
+}
+
+.login .sing-up:hover {
+    color: #3fbef0;
+    text-decoration: underline #3fbef0;
+}

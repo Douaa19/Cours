@@ -1,0 +1,91 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+    font-family: 'arial';
+    color:rgb(255, 255, 255);
+    font-size: 15px;
+    line-height: 1.5em;
+    background:#54ABCC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+    width: 60%;
+    height: 1vh;
+    margin: auto;
+}
+
+main .alerte{
+    font-size: 15px;
+    color: #4BC4F2;
+    text-align: center;
+}
+
+
+.titleBar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: solid;
+    border-color: #4BC4F2;
+    outline-style: none;
+    margin: 3em 0;
+    height: 5vh;
+    padding-bottom: 2em;
+}
+
+.messages{
+    display: flex;
+    margin-top: 1em;
+    height: 50vh;
+    padding: 2em;
+    overflow: auto;
+}
+
+.messages .date {
+    color: #ffffff;
+    font-size: 10px;
+}
+
+.message {
+    margin-top: 0.5em;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    border: solid #4BC4F2;
+    border-radius: 15px;
+    padding: 3px 8px;
+}
+
+
+
+.comment{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1em;
+    height: 10vh;
+}
+
+#utilisateur {
+    width: 25%;
+    height: 2em;
+    outline-style: none;
+    border-color: #ffffff;
+}
+
+#message {
+    width: 55%;
+    height: 2em;
+    outline-style: none;
+    border-color: #ffffff;
+    border-radius: 2px;
+}
+
+
+

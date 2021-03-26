@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,10 +12,16 @@
         <form action="includes/singup-inc.php" method="POST" class="sing-up">
             <h1>SING-UP</h1>
             <input type="text" name="nom" placeholder="Nom">
+
             <input type="email" name="email" placeholder="Email">
-            <input type="text" name="pseudo" placeholder="Nom d'utilisateur">
+
+            <input type="text" name="pseudo" placeholder="Pseudo">
+
             <input type="password" name="mdp" placeholder="Mot de passe">
-            <input type="submit" name="sing-up" value="Sing-up">
+
+            <!-- <input type="image" src="" alt="" name="image"> -->
+
+            <input type="submit" name="submit" value="Sing-up">
         </form>
     </main>
 </body>

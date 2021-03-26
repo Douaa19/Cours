@@ -1,18 +1,21 @@
 <?php
 
     include_once('database.php');
-    $utilisateur = $_POST['utilisateur'];
-    $message = $_POST['message'];
-    $submit = $_POST['envoyer'];
-
-    if(empty($submit) || empty($utilisateur) || empty($message)){
-        echo "Un champ est vide!!!";
-    }else {
-        $query = 'INSERT INTO messages(utilisateur, contenu_message) VALUES ("' . $utilisateur . '" , "' . $message . '")';
-        mysqli_query($link, $query);
-    }
     
-    header("Location: ./chat-page.php?");
+    $submit = $_POST['envoyer'];
+    if (isset($submit)) {
+        $utilisateur = $_POST['utilisateur'];
+        $message = $_POST['message'];
+
+        if(empty($submit) || empty($utilisateur) || empty($message)){
+            echo "Un champ est vide!!!";
+        }else {
+            $query = 'INSERT INTO messages(utilisateur, contenu_message) VALUES ("' . $utilisateur . '" , "' . $message . '")';
+            mysqli_query($link, $query);
+        }
+        header("Location: ./chat-page.php?");
+        }
+        
 
 
 
@@ -26,4 +29,3 @@
 //     si non se redériger à la page index qui devera insérer le message nouvellement inséré
 
 
-?>

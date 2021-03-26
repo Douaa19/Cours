@@ -1,14 +1,12 @@
 <?php
     include_once('database.php');
     
-
-    //selectionner les messages dans la base de donnée
+    //Selectionner les messages de la base de donnée
     $query = "SELECT * FROM messages ORDER BY date";
     $results = mysqli_query($link, $query);
     $messages = mysqli_fetch_assoc($results);
     
     
-
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -22,7 +20,7 @@
 <body>
     <main>
         <div class="titleBar container">
-        <h1>Welcome Youssef</h1>
+        <h1>Welcome !</h1>
         </div>
         <div class="messages container">
             <ul>

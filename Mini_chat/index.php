@@ -19,7 +19,7 @@
     <form class="login" action="includes/login-inc.php" method="POST">
         <main>
             <h1>login</h1>
-            <input type="email" name="email" placeholder="Email">
+            <input type="text" name="nom" placeholder="Nom">
             <input type="password" name="mdp" placeholder="Password">
             <input type="submit" name="login" value="Login">
             <a href="sing-up.php"  class="sing-up">Sing-up</a>

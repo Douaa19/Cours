@@ -1,11 +1,12 @@
 <?php
+    session_start();
     include_once('database.php');
     
     //Selectionner les messages de la base de donnée
     $query = "SELECT * FROM messages ORDER BY date";
     $results = mysqli_query($link, $query);
     $messages = mysqli_fetch_assoc($results);
-    
+    $nom = $_SESSION["nom"];
     
 ?>
 <!DOCTYPE html>
@@ -19,23 +20,24 @@
 </head>
 <body>
     <main>
+        <a href="logout.php">Log out</a>
         <div class="titleBar container">
-        <h1>Welcome !</h1>
-        </div>
-        <div class="messages container">
-            <ul>
-                <?php foreach ($results as $row) : ?>
-
-                    <div class="util"><li class="message"><?php echo $row["utilisateur"];  ?></div>  <div class="mess"><?php echo $row["contenu_message"];  ?></div>  <div class="date"><?php echo $row['date']; ?></div> </li>
-                <?php endforeach ?>
-            </ul>
-        </div>
-        <div class=" container">
-            <form class="comment" action="traitement.php" method="post">
-                <input type="text" name="utilisateur" id="utilisateur" placeholder="Saisir votre username">
-                <input type="text" name="message" id="message" placeholder="Saisir votre message">
-                <input type="submit" class="envoyer" name="envoyer" value="Envoyer">
-            </form>
+            <h1>Welcome <?php echo $nom; ?></h1>
+            </div>
+            <div class="messages container">
+                <ul>
+                    <?php foreach ($results as $row) : ?>
+                    
+                        <div class="util"><li class="message"><?php echo $row["utilisateur"]; ?></div>  <div class="mess"><?php echo $row["contenu_message"]; ?></div>  <div class="date"><?php echo $row['date']; ?></div> </li>
+                    <?php endforeach ?>
+                </ul>
+            </div>
+            <div class=" container">
+                <form class="comment" action="traitement.php" method="post">
+                    <input type="text" name="utilisateur" id="utilisateur" placeholder="Pseudo" value="<?php echo $_SESSION["nom"]; ?>" ?>
+                    <input type="text" name="message" id="message" placeholder="Saisir votre message">
+                    <input type="submit" class="envoyer" name="envoyer" value="Envoyer">
+                </form>
         </div>
     </main>
 

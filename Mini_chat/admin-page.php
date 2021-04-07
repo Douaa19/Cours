@@ -2,8 +2,9 @@
 
     include_once('database.php');
     
-    $select = "SELECT * FROM utilisateurs ORDER BY nom";
+    $select = "SELECT * FROM utilisateurs";
     $result = mysqli_query($link, $select);
+    
 
 ?>
 
@@ -19,25 +20,24 @@
 <body>
     <table>
         <tr>
+            <th>Id_utilisateur</th>
             <th>Nom</th>
             <th>Pseudo</th>
             <th>Email</th>
             <th>Mots de passe</th>
-            <th>Image</th>
         </tr>
-        <?php foreach ($result as $row) : ?>
+        <?php foreach($result as $row) { ?>
         <tr>
             <td><?php echo $row['id_utilisateur']; ?></td>
             <td><?php echo $row['nom']; ?></td>
             <td><?php echo $row['pseudo']; ?></td>
             <td><?php echo $row['email']; ?></td>
             <td><?php echo $row['mdp']; ?></td>
-            <td><?php echo $row['image']; ?></td>
-            <td><a href="includes/update-inc.php?modifier= <?php echo $row['id_utilisateur']; ?>">Modifier</a>
+            <td><a href="update.php?id= <?php echo $row['id_utilisateur']; ?>">Modifier</a> /
             <a href="includes/delete-inc.php?supprimer= <?php echo $row['id_utilisateur']; ?>">Supprimer</a>
             </td>
         </tr>
-        <?php endforeach; ?>
+        <?php } ?>
     </table>
 </body>
 </html>

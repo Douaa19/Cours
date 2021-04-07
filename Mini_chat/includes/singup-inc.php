@@ -23,9 +23,10 @@ if(!include_once('../database.php')){
             // Si les inputs ne sont pas vides
             // Validation email
             $insert = 'INSERT INTO utilisateurs(nom, pseudo, email, mdp) VALUES ("' . $nom . '" , "' . $pseudo . '" , "' . $email . '" , "' . $mdp . '")';
-            mysqli_query($link, $insert);
-            if (mysqli_query($link, $insert)) {
+            $result = mysqli_query($link, $insert);
+            if ($result) {
                 header('Location: ../index.php');
+                die();
             } else {
                 echo "Error: " . $insert . " " . mysqli_error($link);
                 die();

@@ -14,11 +14,10 @@ if(!include_once('../database.php')){
         $email = $_POST['email'];
         $pseudo = $_POST['pseudo'];
         $mdp = $_POST['mdp'];
-        // $image = $_POST['image'];
     
         if(empty($nom) || empty($email) || empty($pseudo) || empty($mdp)) {
             header("Location: ../sing-up.php?error=emptyinput");
-            exit();
+            die();
         } else {
             // Si les inputs ne sont pas vides
             // Validation email

@@ -22,6 +22,7 @@ include_once('../database.php');
         }
         if (!empty($nom) && !empty($mdp)) {
             // Select
+            
             $select = "SELECT * FROM utilisateurs WHERE nom = '$nom' AND mdp = '$mdp'";
             $result = mysqli_query($link, $select);
             if (mysqli_num_rows($result) == 1) {

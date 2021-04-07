@@ -18,6 +18,7 @@
     <title>Chat box</title>
     <link rel="stylesheet" href="./css/style.css">
 </head>
+<?php if (isset($nom)) { ?>
 <body>
     <main>
         <a href="logout.php">Log out</a>
@@ -42,4 +43,8 @@
     </main>
 
 </body>
+<?php } else {
+    header('Location: index.php');
+    die();
+} ?>
 </html>

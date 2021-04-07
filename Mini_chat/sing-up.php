@@ -19,8 +19,6 @@
 
             <input type="password" name="mdp" placeholder="Mot de passe">
 
-            <!-- <input type="image" src="" alt="" name="image"> -->
-
             <input type="submit" name="submit" value="Sing-up">
         </form>
     </main>

@@ -8,26 +8,26 @@
 
 
 var myImage = document.getElementById("mainImage");
+var right = document.getElementById("right");
+var left = document.getElementById("left");
 
-	var imageArray = ["images/image1.png","images/image2.png","images/image3.png",
-					  "images/image4.png"];
-	var imageIndex = 0;
+	var imageArray = ["images/image2.png","images/image3.png","images/image4.png","images/image1.png"];
+	var i = 0;
 
-	function changeImage() {
-		myImage.setAttribute("src",imageArray[imageIndex]);
-		imageIndex++;
-		if (imageIndex >= imageArray.length) {
-			imageIndex = 0;
+	right.onclick = function() {
+		myImage.setAttribute("src",imageArray[i]);
+		i++;
+		if (i >= imageArray.length) {
+			i = 0;
 		}
 	}
 
-	// setInterval is also in milliseconds
-	var intervalHandle = setInterval(changeImage, 5000);
-
-	myImage.onclick =  function() {
-		clearInterval(intervalHandle);
-	    alert("You clicked the image");
+  left.onclick = function() {
+    i = i >= 0 ? --i : (images.length-1);
+    --i;
+    myImage.setAttribute("src",imageArray[i]);
 	}
+
 
 
 

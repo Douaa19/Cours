@@ -6,7 +6,7 @@ h1{
     position: relative; 
     height: 600px;
     width: 900px;
-    border: 2px solid rgb(48, 7, 231);
+    border: 2px solid rgb(113, 86, 233);
     margin: auto;
     box-sizing: border-box;
     display: flex;
@@ -14,25 +14,29 @@ h1{
     align-items: center;
 }
 
-.arrow{
+#canvas #mainImage {
+    width: 88%;
+}
+
+#canvas .arrow{
     position: relative; 
     z-index: 1;
     width: 50px;
     height: 50px;
-    border: 2px solid rgb(48, 7, 231);
+    border: 2px solid rgb(113, 86, 233);
     padding: 5px;
     box-sizing: border-box;
     background: white;
     opacity: .8;
-
 }
 
-.image{
+#canvas .image{
     width: 35px;
     height: 35px;
 }
 
-.arrow:hover{
-    background-color: rgb(48, 7, 231);
+#canvas .arrow:hover{
+    background-color: rgb(113, 86, 233);
+    box-shadow: 0 0 5px black;
 }
 

@@ -18,21 +18,25 @@
  <style>
  </style>
 </head>
-
+<!-- <script type="text/javascript">
+    function fun() {
+        document.getElementById("message").innerHTML="";
+    }
+</script> -->
 
 <body>
 
- <div class="container"> 
+ <div class="container">
   <div class="row max-height align-items-center">
    <div class="col-10 mx-auto col-md-8 message-container text-center p-3">
     <h4 class="text-capitalize">A message you would like to pass</h4>
     <form id="message-form">
      <input type="text" name="" id="message" class="w-100 my-3 p-2">
-     <input type="submit" id="submitBtn" onclick="Func()" class="btn btn-lg">
+     <input type="submit" id="submitBtn" class="btn btn-lg">
     </form>
     <h5 class="p-2 alert alert-danger my-3 text-capitalize feedback">Merci de saisir une valeur</h5>
     <h4 class="text-capitalize my-3">Dernier message livré</h4>
-    <h4 class="message-content text-uppercase" id="disply">Hello Namek</h4>
+    <h4 class="message-content text-uppercase" id="name">Hello Namek</h4>
 
    </div>
   </div>

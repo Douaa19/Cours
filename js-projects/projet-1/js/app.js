@@ -10,7 +10,6 @@ btn.onclick = function(ele) {
     } else {
         msg.value = '';
         document.getElementById("name").innerHTML = "Hello" + " " + inputValuee;
-        
     }
 
 }

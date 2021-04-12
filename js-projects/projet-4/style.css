@@ -9,7 +9,7 @@ body{
     grid-template-columns: 80%;
     justify-content: center;
     margin-top: 3rem;
-    background: #deebbc;
+    background-image: linear-gradient(90deg, #f15f5f, #f1abab);
 }
 
 .addItems-container{

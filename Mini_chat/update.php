@@ -23,6 +23,9 @@
         }    
     }
 
+
+    
+
     
      
 ?>
@@ -32,27 +35,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/admin-inc.css">
+    <link rel="stylesheet" href="css/style-update.css">
     <title>Modifier</title>
 </head>
 <body>
-    <form action="includes/update-inc.php" method="post">
-        <label for="id">Id</label>
-        <input type="text" name="id_utilisateur" value= "<?php echo $id; ?>">
+    <main>
+        <div class="form">
+            <form action="admin-page.php" method="post">
+                <label for="id">Id</label>
+                <input type="text" name="id_utilisateur" value= "<?php echo $id; ?>">
 
-        <label for="nom">Nom</label>
-        <input type="text" name="nom" value="<?php echo $nom; ?>" placeholder="Nom">
+                <label for="nom">Nom</label>
+                <input type="text" name="nom" value="<?php echo $nom; ?>" placeholder="Nom">
 
-        <label for="pseudo">Pseudo</label>
-        <input type="text" name="pseudo" value="<?php echo $pseudo; ?>" placeholder="Pseudo">
+                <label for="pseudo">Pseudo</label>
+                <input type="text" name="pseudo" value="<?php echo $pseudo; ?>" placeholder="Pseudo">
 
-        <label for="email">Email</label>
-        <input type="email" name="email" value="<?php echo $email; ?>" placeholder="Email">
+                <label for="email">Email</label>
+                <input type="email" name="email" value="<?php echo $email; ?>" placeholder="Email">
 
-        <label for="mdp">Mot de passe</label>
-        <input type="password" name="mdp" value="<?php echo $mdp; ?>" placeholder="Mots de passe">
-        
-        <input type="submit" name="submit" value="Modifier">
-    </form>
+                <label for="mdp">Mot de passe</label>
+                <input type="password" name="mdp" value="<?php echo $mdp; ?>" placeholder="Mots de passe">
+
+                <input type="submit" name="submit" value="Modifier">
+            </form>
+        </div>
+    </main>
 </body>
 </html>

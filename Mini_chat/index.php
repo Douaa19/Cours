@@ -1,10 +1,3 @@
-<?php
-    include_once('database.php');
-
-?>
-
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -15,17 +8,14 @@
     <title>Log-in</title>
 </head>
 <body>
-    
-    <form class="login" action="includes/login-inc.php" method="POST">
-        <main>
+    <main>  
+        <form class="login" action="includes/login-inc.php" method="POST">
             <h1>login</h1>
             <input type="text" name="nom" placeholder="Nom">
             <input type="password" name="mdp" placeholder="Password">
             <input type="submit" name="login" value="Login">
             <a href="sing-up.php"  class="sing-up">Sing-up</a>
-        </main>
-    </form>
-    
-
+        </form>
+    </main>
 </body>
 </html>

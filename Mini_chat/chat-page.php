@@ -6,7 +6,7 @@
     $query = "SELECT * FROM messages ORDER BY date";
     $results = mysqli_query($link, $query);
     $messages = mysqli_fetch_assoc($results);
-    $nom = $_SESSION["nom"];
+    $nom = $_SESSION["nom"]; 
     
 ?>
 <!DOCTYPE html>

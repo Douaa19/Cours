@@ -85,6 +85,11 @@ body{
     margin-bottom: 0.25rem;
 }
 
+.displayItems-container .tqedia-list .addItems {
+    display: flex;
+    flex-direction: column;
+}
+
 .tqedia-item{
     display:grid;
     grid-template-columns: 4fr 1fr;
@@ -142,6 +147,11 @@ body{
     border-color: rgb(32, 184, 32);
     display: block;
     margin-bottom: 0.5rem;
+}
+
+.addItems {
+    color: white;
+    font-size: 20px;
 }
 
 @media screen and (min-width: 768px){

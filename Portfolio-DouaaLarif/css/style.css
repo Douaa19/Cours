@@ -24,15 +24,15 @@ header .nav-logo{
     align-items: center;
 }
 
-header .nav-logo .logo{
+header .nav-logo img{
     margin-top: 3em;
 }
 
-header .nav-logo .logo h2{
+/* header .nav-logo .logo h2{
     font-weight: bold;
     font-size: 50px;
     color: #FFFFFF;
-}
+} */
 
 /* humberger */
 header .menu-btn{
@@ -668,11 +668,11 @@ footer .container .footer .icons-copyright ul li .up{
         overflow: hidden;
     }
 
-    header .nav-logo .logo h2{
+    /* header .nav-logo img h2{
         font-weight: bold;
         font-size: 30px;
         color: #FFFFFF;
-    }    
+    }     */
 
     header .nav-logo .nav{
         font-size: 13px;
@@ -988,13 +988,13 @@ footer .container .footer .icons-copyright ul li .up{
         height: 100%;
     }
 
-    header .nav-logo .logo{
+    header .nav-logo img{
         margin-top: 1.5em;
     }
 
-    header .nav-logo .logo h2{
+    /* header .nav-logo .logo h2{
         font-size: 20px;
-    }
+    } */
 
     header .nav-logo .nav{
         font-size: 9px;

@@ -1,3 +1,94 @@
+.custom-btn {
+    width: 130px;
+    height: 40px;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 25px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+     box-shadow:inset 2px 2px 2px 0px #E07800,
+     7px 7px 20px 0px rgba(0,0,0,.1),
+     4px 4px 5px 0px rgba(0,0,0,.1);
+    outline: none;
+  }
+
+.btn-3 {
+  background: #E07800;
+background: linear-gradient(0deg, #E07800 0%, #E07800 100%);
+  width: 130px;
+  height: 40px;
+  line-height: 42px;
+  padding: 0;
+  border: none;
+  
+}
+.btn-3 span {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.btn-3:before,
+.btn-3:after {
+  position: absolute;
+  content: "";
+  right: 0;
+  top: 0;
+   background: #E07800;
+  transition: all 0.3s ease;
+}
+.btn-3:before {
+  height: 0%;
+  width: 2px;
+}
+.btn-3:after {
+  width: 0%;
+  height: 2px;
+}
+.btn-3:hover{
+   background: transparent;
+  box-shadow: none;
+}
+.btn-3:hover:before {
+  height: 100%;
+}
+.btn-3:hover:after {
+  width: 100%;
+}
+.btn-3 span:hover{
+   color: #E07800;
+}
+.btn-3 span:before,
+.btn-3 span:after {
+  position: absolute;
+  content: "";
+  left: 0;
+  bottom: 0;
+   background: #E07800;
+  transition: all 0.3s ease;
+}
+.btn-3 span:before {
+  width: 2px;
+  height: 0%;
+}
+.btn-3 span:after {
+  width: 0%;
+  height: 2px;
+}
+.btn-3 span:hover:before {
+  height: 100%;
+}
+.btn-3 span:hover:after {
+  width: 100%;
+}
+
+
+
 *{
     scroll-behavior: smooth;
 }
@@ -243,11 +334,11 @@ main .section-about .text{
     width: 80%;
     margin: auto;
     padding-bottom: 5px;
-    border-bottom: 5px solid #E07800;
+    /* border-bottom: 5px solid #E07800; */
 }
 
 main .section-about .text p{
-    background-color: #E07800;
+    /* background-color: #E07800; */
     font-size: 25px;
     padding: 20px;
 }
@@ -255,7 +346,7 @@ main .section-about .text p{
 main .section-competences .container h2{
     color: #E07800;
     font-size: 50px;
-    text-decoration: underline  #E07800;
+    /* text-decoration: underline  #E07800; */
     margin-bottom: 1em;
 }
 
@@ -273,6 +364,7 @@ main .section-competences .container .icon-competences{
 }
 
 main .section-competences .container .html{
+    cursor: pointer;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -303,6 +395,7 @@ main .section-competences .container .html .text-html:hover{
 }
 
 main .section-competences .container .css{
+    cursor: pointer;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -333,6 +426,7 @@ main .section-competences .container .css .text-css:hover{
 }
 
 main .section-competences .container .balsamiq{
+    cursor: pointer;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -368,6 +462,7 @@ main .section-competences .container .balsamiq .text-balsamiq:hover{
 }
 
 main .section-competences .container .figma{
+    cursor: pointer;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -787,6 +882,10 @@ footer .container .footer .icons-copyright ul li .up{
         font-size: 15px;
         border-radius: 150px;
         padding: 6px 35px;
+    }
+
+    main .section-competences .container .balsamiq{
+
     }
 
     main .section-competences .container .balsamiq .icon-balsamiq{
